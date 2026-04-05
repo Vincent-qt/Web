@@ -8,7 +8,6 @@ const translations = {
     nav_experience: "Experience",
     nav_skills: "Skills",
     nav_contact: "Contact",
-    lang_toggle: "繁中",
     hero_eyebrow: "Finance | Strategy | Analytics",
     hero_line_1: "Passionate about finance.",
     hero_line_2: "Focused on the intersection of finance and technology.",
@@ -152,7 +151,6 @@ const translations = {
     nav_experience: "實習經歷",
     nav_skills: "專業技能",
     nav_contact: "聯絡方式",
-    lang_toggle: "EN",
     hero_eyebrow: "金融 | 策略 | 分析",
     hero_line_1: "對金融充滿熱情。",
     hero_line_2: "專注於金融與科技的結合。",
@@ -270,7 +268,7 @@ const translations = {
 
 const revealNodes = document.querySelectorAll(".reveal");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
-const langToggle = document.querySelector("[data-lang-toggle]");
+const langButtons = document.querySelectorAll("[data-set-lang]");
 const siteDescription = document.querySelector("#site-description");
 const supportedLanguages = ["en", "zhHant"];
 
@@ -309,6 +307,12 @@ function setLanguage(language) {
   document.body.dataset.lang = nextLanguage;
   document.title = copy.page_title;
 
+  langButtons.forEach((button) => {
+    const isActive = button.dataset.setLang === nextLanguage;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+  });
+
   if (siteDescription) {
     siteDescription.setAttribute("content", copy.page_description);
   }
@@ -321,10 +325,10 @@ const initialLanguage = supportedLanguages.includes(storedLanguage) ? storedLang
 
 setLanguage(initialLanguage);
 
-if (langToggle) {
-  langToggle.addEventListener("click", () => {
-    const currentLanguage = document.body.dataset.lang === "zhHant" ? "zhHant" : "en";
-    const nextLanguage = currentLanguage === "en" ? "zhHant" : "en";
-    setLanguage(nextLanguage);
+if (langButtons.length) {
+  langButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      setLanguage(button.dataset.setLang);
+    });
   });
 }

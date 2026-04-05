@@ -156,28 +156,45 @@ nav a:hover {
   color: var(--text);
 }
 
-.lang-toggle {
-  border: 1px solid rgba(174, 134, 71, 0.24);
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.28rem;
+  border: 1px solid rgba(174, 134, 71, 0.2);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.74);
-  color: var(--text);
-  min-height: 40px;
-  padding: 0.55rem 0.95rem;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.lang-button {
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  min-height: 36px;
+  min-width: 60px;
+  padding: 0.4rem 0.8rem;
   font: inherit;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   cursor: pointer;
   transition:
     transform 180ms ease,
-    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
     box-shadow 180ms ease;
 }
 
-.lang-toggle:hover {
+.lang-button:hover {
   transform: translateY(-1px);
-  border-color: rgba(174, 134, 71, 0.42);
-  box-shadow: 0 10px 20px rgba(77, 67, 48, 0.08);
+  color: var(--text);
+}
+
+.lang-button.is-active {
+  color: #ffffff;
+  background: linear-gradient(135deg, #c59b58, #8b6832);
+  box-shadow: 0 10px 22px rgba(171, 132, 68, 0.18);
 }
 
 main {
