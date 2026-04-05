@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    page_title: "Qitai Lai | Finance and Analytics Portfolio",
+    page_title: "Vincent Qitai Lai | Finance and Analytics Portfolio",
     page_description:
       "I am a Master of Finance candidate with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics.",
     nav_profile: "Profile",
@@ -143,7 +143,7 @@ const translations = {
       "I use this site to share my profile, experience, and professional focus."
   },
   zhHant: {
-    page_title: "賴啟泰 | 金融與分析個人網站",
+    page_title: "Vincent Qitai Lai | 金融與分析個人網站",
     page_description:
       "我目前修讀香港理工大學企業融資方向金融學碩士，具備銀行營運、財務管理教學支援、流程優化、軟件測試、投資研究與商業分析等經驗。",
     nav_profile: "個人介紹",
