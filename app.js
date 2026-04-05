@@ -140,7 +140,8 @@ const translations = {
       "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
     footer_line_1: "This is my personal portfolio.",
     footer_line_2:
-      "I use this site to share my profile, experience, and professional focus."
+      "I use this site to share my profile, experience, and professional focus.",
+    footer_line_3: "2026 LAI Qitai. All rights reserved."
   },
   zhHant: {
     page_title: "Vincent Qitai Lai | 金融與分析個人網站",
@@ -262,7 +263,8 @@ const translations = {
     contact_text:
       "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
     footer_line_1: "這是我的個人專業網站。",
-    footer_line_2: "我透過這個網站分享我的背景、經驗與專業方向。"
+    footer_line_2: "我透過這個網站分享我的背景、經驗與專業方向。",
+    footer_line_3: "2026 LAI Qitai 版權所有。"
   }
 };
 
