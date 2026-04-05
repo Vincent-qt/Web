@@ -149,7 +149,7 @@ const translations = {
     skill_text_6:
       "I communicate in Cantonese, Mandarin, and English, and I have passed HKSI Licensing Examination Paper 1, which strengthens my readiness for professional finance and market-facing roles.",
     contact_kicker: "Contact",
-    contact_heading: "I am available for professional opportunities.",
+    contact_heading: "I am actively seeking professional opportunities.",
     contact_text:
       "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
     footer_line_1: "This is my personal portfolio.",
@@ -286,7 +286,7 @@ const translations = {
     skill_text_6:
       "可使用廣東話、普通話及英語進行專業溝通，並已通過 HKSI Licensing Examination Paper 1，進一步提升金融及市場相關職位的就業準備度。",
     contact_kicker: "聯絡方式",
-    contact_heading: "目前開放專業職位機會。",
+    contact_heading: "目前正在尋找專業職位機會。",
     contact_text:
       "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
     footer_line_1: "這是我的個人專業網站。",
@@ -422,7 +422,7 @@ const translations = {
     skill_text_6:
       "可使用广东话、普通话及英语进行专业沟通，并已通过 HKSI Licensing Examination Paper 1，进一步提升金融及市场相关职位的就业准备度。",
     contact_kicker: "联系方式",
-    contact_heading: "目前开放专业职位机会。",
+    contact_heading: "目前正在寻找专业职位机会。",
     contact_text:
       "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
     footer_line_1: "这是我的个人专业网站。",
