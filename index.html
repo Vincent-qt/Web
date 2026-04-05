@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Qitai Lai | Finance and Analytics Portfolio</title>
     <meta
+      id="site-description"
       name="description"
       content="I am a Master of Finance candidate with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics."
     />
@@ -20,45 +21,50 @@
         <span class="brand-mark">QL</span>
         <span class="brand-text">Qitai Lai</span>
       </a>
-      <nav>
-        <a href="#profile">Profile</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="topbar-actions">
+        <nav>
+          <a href="#profile" data-i18n="nav_profile">Profile</a>
+          <a href="#education" data-i18n="nav_education">Education</a>
+          <a href="#experience" data-i18n="nav_experience">Experience</a>
+          <a href="#skills" data-i18n="nav_skills">Skills</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+        </nav>
+        <button class="lang-toggle" type="button" data-lang-toggle>
+          <span class="lang-toggle-label" data-i18n="lang_toggle">繁中</span>
+        </button>
+      </div>
     </header>
 
     <main id="home">
       <section class="hero reveal">
         <div class="hero-copy">
           <div class="hero-topline">
-            <p class="eyebrow">Finance | Strategy | Analytics</p>
+            <p class="eyebrow" data-i18n="hero_eyebrow">Finance | Strategy | Analytics</p>
           </div>
           <div class="hero-main">
             <div class="hero-title-block">
               <p class="hero-nameplate">Qitai Lai</p>
               <h1>
-                <span class="hero-line">Passionate about finance.</span>
-                <span class="hero-line">Focused on the intersection of finance and technology.</span>
-                <span class="hero-line">Committed to analytical thinking and professional execution.</span>
+                <span class="hero-line" data-i18n="hero_line_1">Passionate about finance.</span>
+                <span class="hero-line" data-i18n="hero_line_2">Focused on the intersection of finance and technology.</span>
+                <span class="hero-line" data-i18n="hero_line_3">Committed to analytical thinking and professional execution.</span>
               </h1>
-              <p class="hero-summary">I combine financial curiosity with analytical discipline and a strong interest in how technology can improve research, decision-making, and execution.</p>
-              <p class="hero-status">Open to finance, banking and analyst-track opportunities</p>
+              <p class="hero-summary" data-i18n="hero_summary">I combine financial curiosity with analytical discipline and a strong interest in how technology can improve research, decision-making, and execution.</p>
+              <p class="hero-status" data-i18n="hero_status">Open to finance, banking and analyst-track opportunities</p>
             </div>
             <div class="hero-side">
               <div class="identity-card hero-identity">
                 <p class="identity-name">Qitai Lai</p>
-                <p class="identity-role">Master of Finance Candidate</p>
+                <p class="identity-role" data-i18n="identity_role">Master of Finance Candidate</p>
                 <ul class="identity-list">
-                  <li>The Hong Kong Polytechnic University</li>
-                  <li>Corporate Finance</li>
-                  <li>Banking and Analytics</li>
+                  <li data-i18n="identity_item_1">The Hong Kong Polytechnic University</li>
+                  <li data-i18n="identity_item_2">Corporate Finance</li>
+                  <li data-i18n="identity_item_3">Banking and Analytics</li>
                 </ul>
               </div>
               <div class="hero-note">
-                <p class="hero-note-label">Focus</p>
-                <p>
+                <p class="hero-note-label" data-i18n="hero_focus_label">Focus</p>
+                <p data-i18n="hero_focus_text">
                   Corporate finance, investment analysis, banking, and analyst-track roles.
                 </p>
               </div>
@@ -68,13 +74,14 @@
           <div class="hero-bottom">
             <div class="hero-cta">
               <div class="hero-actions">
-                <a class="btn btn-primary" href="mailto:lqt-vincent@outlook.com">Contact Me</a>
+                <a class="btn btn-primary" href="mailto:lqt-vincent@outlook.com" data-i18n="contact_me">Contact Me</a>
                 <a
                   class="btn btn-secondary"
                   href="./assets/qitai-lai-cv.pdf"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="View Qitai Lai CV"
+                  data-i18n="view_cv"
                 >
                   View CV
                 </a>
@@ -82,15 +89,15 @@
               <div class="hero-metrics">
                 <article>
                   <p class="metric-value">4.0 / 4.3</p>
-                  <p class="metric-label">Master of Finance GPA</p>
+                  <p class="metric-label" data-i18n="metric_mf_gpa">Master of Finance GPA</p>
                 </article>
                 <article>
                   <p class="metric-value">3.92 / 4.0</p>
-                  <p class="metric-label">Bachelor GPA</p>
+                  <p class="metric-label" data-i18n="metric_ba_gpa">Bachelor GPA</p>
                 </article>
                 <article>
-                  <p class="metric-value">Ranked 1st</p>
-                  <p class="metric-label">PolyU Asian Capital Scholarship</p>
+                  <p class="metric-value" data-i18n="metric_ranked">Ranked 1st</p>
+                  <p class="metric-label" data-i18n="metric_scholarship">PolyU Asian Capital Scholarship</p>
                 </article>
               </div>
             </div>
@@ -100,9 +107,9 @@
 
       <section id="profile" class="section-grid reveal">
         <article class="panel profile-panel">
-          <p class="section-kicker">Professional Profile</p>
-          <h2>I combine strong finance training with valuation discipline and technology-driven execution.</h2>
-          <p>
+          <p class="section-kicker" data-i18n="profile_kicker">Professional Profile</p>
+          <h2 data-i18n="profile_heading">I combine strong finance training with valuation discipline and technology-driven execution.</h2>
+          <p data-i18n="profile_p1">
             I am currently pursuing a Master of Finance in Corporate Finance at
             The Hong Kong Polytechnic University, where I hold a GPA of 4.0 out
             of 4.3 and was awarded the Asian Capital Scholarship as the
@@ -111,7 +118,7 @@
             graduated with a GPA of 3.92 out of 4.0 and received multiple
             academic honours and scholarships.
           </p>
-          <p>
+          <p data-i18n="profile_p2">
             I have built a strong foundation in corporate valuation, financial
             accounting, and investment analysis, with hands-on capability in
             DCF valuation, comparable company analysis, precedent transactions,
@@ -119,7 +126,7 @@
             structure analysis, WACC estimation, sensitivity analysis, and
             financial statement interpretation.
           </p>
-          <p>
+          <p data-i18n="profile_p3">
             On the technical side, I work with Python, Stata, EViews, Power BI,
             Tableau, Bloomberg, and Wind, and I am especially interested in the
             intersection of finance and technology. I also use AI-assisted
@@ -133,32 +140,32 @@
         </article>
 
         <article class="panel capability-panel">
-          <p class="section-kicker">What I Can Do</p>
+          <p class="section-kicker" data-i18n="capability_kicker">What I Can Do</p>
           <div class="capability-list">
             <div>
-              <h3>Financial Analysis</h3>
-              <p>
+              <h3 data-i18n="capability_title_1">Financial Analysis</h3>
+              <p data-i18n="capability_text_1">
                 I interpret financial information, support reporting, and link
                 business questions with analytical evidence and finance logic.
               </p>
             </div>
             <div>
-              <h3>Process Improvement</h3>
-              <p>
+              <h3 data-i18n="capability_title_2">Process Improvement</h3>
+              <p data-i18n="capability_text_2">
                 I review workflows, identify operational gaps, and support more
                 efficient processes with structured analysis and documentation.
               </p>
             </div>
             <div>
-              <h3>Business Coordination</h3>
-              <p>
+              <h3 data-i18n="capability_title_3">Business Coordination</h3>
+              <p data-i18n="capability_text_3">
                 I work across academic, technical, and banking environments with
                 clear communication, professionalism, and dependable follow-through.
               </p>
             </div>
             <div>
-              <h3>Investment and IT Readiness</h3>
-              <p>
+              <h3 data-i18n="capability_title_4">Investment and IT Readiness</h3>
+              <p data-i18n="capability_text_4">
                 I combine market-tool familiarity, research discipline, testing
                 logic, and Python-based analytical skills to support
                 finance-technology environments.
@@ -170,26 +177,26 @@
 
       <section id="education" class="reveal">
         <div class="section-heading">
-          <p class="section-kicker">Education</p>
-          <h2>Academic performance with top-tier consistency.</h2>
+          <p class="section-kicker" data-i18n="education_kicker">Education</p>
+          <h2 data-i18n="education_heading">Academic performance with top-tier consistency.</h2>
         </div>
         <div class="cards two-up">
           <article class="card">
-            <p class="card-meta">09/2025 - 06/2026 | Hong Kong</p>
-            <h3>The Hong Kong Polytechnic University</h3>
-            <p class="card-lead">Master of Finance (Corporate Finance)</p>
+            <p class="card-meta" data-i18n="education_meta_1">09/2025 - 06/2026 | Hong Kong</p>
+            <h3 data-i18n="education_school_1">The Hong Kong Polytechnic University</h3>
+            <p class="card-lead" data-i18n="education_lead_1">Master of Finance (Corporate Finance)</p>
             <p>GPA: 4.0 out of 4.3</p>
-            <p>
+            <p data-i18n="education_text_1">
               I was awarded the Asian Capital Scholarship and ranked first
               among the Master of Finance cohort for the 2025-2026 academic year.
             </p>
           </article>
           <article class="card">
-            <p class="card-meta">09/2021 - 06/2025 | Macau</p>
-            <h3>City University of Macau</h3>
-            <p class="card-lead">Bachelor of Applied Economics, Faculty of Finance</p>
+            <p class="card-meta" data-i18n="education_meta_2">09/2021 - 06/2025 | Macau</p>
+            <h3 data-i18n="education_school_2">City University of Macau</h3>
+            <p class="card-lead" data-i18n="education_lead_2">Bachelor of Applied Economics, Faculty of Finance</p>
             <p>GPA: 3.92 out of 4.0</p>
-            <p>
+            <p data-i18n="education_text_2">
               I was recognized on the Dean's List for three consecutive academic
               years, with additional scholarship awards from Luso International
               Banking Ltd. and CHEUNG Kovu Scholarship.
@@ -200,21 +207,21 @@
 
       <section id="experience" class="reveal">
         <div class="section-heading">
-          <p class="section-kicker">Internship Experience</p>
-          <h2>Experience that shows domain range and execution depth.</h2>
+          <p class="section-kicker" data-i18n="experience_kicker">Internship Experience</p>
+          <h2 data-i18n="experience_heading">Experience that shows domain range and execution depth.</h2>
         </div>
 
         <div class="timeline">
           <article class="timeline-item">
             <div class="timeline-head">
               <div>
-                <p class="card-meta">09/2023 - 06/2024 | Macau</p>
-                <h3>Teaching Assistant of Financial Management</h3>
-                <p class="company">Faculty of Finance, City University of Macau</p>
+                <p class="card-meta" data-i18n="exp_meta_1">09/2023 - 06/2024 | Macau</p>
+                <h3 data-i18n="exp_title_1">Teaching Assistant of Financial Management</h3>
+                <p class="company" data-i18n="exp_company_1">Faculty of Finance, City University of Macau</p>
               </div>
-              <p class="impact-tag">Instructional support and academic quality</p>
+              <p class="impact-tag" data-i18n="exp_tag_1">Instructional support and academic quality</p>
             </div>
-            <p>
+            <p data-i18n="exp_text_1">
               Supported course delivery across grading, exam review, and
               student feedback administration for financial management modules.
               The role required consistent academic judgement, careful marking
@@ -223,24 +230,24 @@
               and structured manner.
             </p>
             <ul class="detail-list">
-              <li>Maintained grading consistency and academic quality control across assignments and exam scripts.</li>
-              <li>Delivered clear concept explanations during Q&amp;A support and tutorial interactions.</li>
-              <li>Strengthened communication, presentation, and instructional support capability in a finance context.</li>
+              <li data-i18n="exp_bullet_1_1">Maintained grading consistency and academic quality control across assignments and exam scripts.</li>
+              <li data-i18n="exp_bullet_1_2">Delivered clear concept explanations during Q&amp;A support and tutorial interactions.</li>
+              <li data-i18n="exp_bullet_1_3">Strengthened communication, presentation, and instructional support capability in a finance context.</li>
             </ul>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-head">
               <div>
-                <p class="card-meta">07/2023 - 08/2023 | Foshan</p>
-                <h3>Junior Engineer</h3>
-                <p class="company">
+                <p class="card-meta" data-i18n="exp_meta_2">07/2023 - 08/2023 | Foshan</p>
+                <h3 data-i18n="exp_title_2">Junior Engineer</h3>
+                <p class="company" data-i18n="exp_company_2">
                   Shanghai Chinasoft-International Huateng (Shanghai) Software Systems Co., Ltd.
                 </p>
               </div>
-              <p class="impact-tag">Banking workflow testing and defect control</p>
+              <p class="impact-tag" data-i18n="exp_tag_2">Banking workflow testing and defect control</p>
             </div>
-            <p>
+            <p data-i18n="exp_text_2">
               Participated in mortgage approval system testing with direct
               exposure to loan application workflows, document verification
               logic, credit assessment steps, and approval-stage controls.
@@ -249,22 +256,22 @@
               banking environment with process accuracy requirements.
             </p>
             <ul class="detail-list">
-              <li>Converted business requirements and operating processes into structured functional test scenarios.</li>
-              <li>Covered normal flows, exception cases, and boundary conditions to improve testing completeness.</li>
-              <li>Produced disciplined defect reports that improved issue traceability and developer follow-up.</li>
+              <li data-i18n="exp_bullet_2_1">Converted business requirements and operating processes into structured functional test scenarios.</li>
+              <li data-i18n="exp_bullet_2_2">Covered normal flows, exception cases, and boundary conditions to improve testing completeness.</li>
+              <li data-i18n="exp_bullet_2_3">Produced disciplined defect reports that improved issue traceability and developer follow-up.</li>
             </ul>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-head">
               <div>
-                <p class="card-meta">05/2022 - 08/2022 | Guangzhou</p>
-                <h3>Intern of Experience Management Department</h3>
-                <p class="company">China Guangfa Bank, Head Office Credit Card Center</p>
+                <p class="card-meta" data-i18n="exp_meta_3">05/2022 - 08/2022 | Guangzhou</p>
+                <h3 data-i18n="exp_title_3">Intern of Experience Management Department</h3>
+                <p class="company" data-i18n="exp_company_3">China Guangfa Bank, Head Office Credit Card Center</p>
               </div>
-              <p class="impact-tag">Operational analysis and project coordination</p>
+              <p class="impact-tag" data-i18n="exp_tag_3">Operational analysis and project coordination</p>
             </div>
-            <p>
+            <p data-i18n="exp_text_3">
               Supported project execution, operational reporting, and workflow
               improvement initiatives within the Credit Card Center of a major
               commercial bank. Work involved process analysis, campaign support,
@@ -272,22 +279,22 @@
               internal innovation and service-improvement activities.
             </p>
             <ul class="detail-list">
-              <li>Contributed structured analysis to process optimization and operational improvement efforts.</li>
-              <li>Coordinated cross-functional tasks related to training delivery, reporting, and project execution.</li>
-              <li>Applied JMP-based analysis and supported internal reporting with organized data preparation.</li>
+              <li data-i18n="exp_bullet_3_1">Contributed structured analysis to process optimization and operational improvement efforts.</li>
+              <li data-i18n="exp_bullet_3_2">Coordinated cross-functional tasks related to training delivery, reporting, and project execution.</li>
+              <li data-i18n="exp_bullet_3_3">Applied JMP-based analysis and supported internal reporting with organized data preparation.</li>
             </ul>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-head">
               <div>
-                <p class="card-meta">01/2022 - 02/2022 | Guangzhou</p>
-                <h3>Marketing Intern</h3>
-                <p class="company">China Financial Certification Authority (CFCA)</p>
+                <p class="card-meta" data-i18n="exp_meta_4">01/2022 - 02/2022 | Guangzhou</p>
+                <h3 data-i18n="exp_title_4">Marketing Intern</h3>
+                <p class="company" data-i18n="exp_company_4">China Financial Certification Authority (CFCA)</p>
               </div>
-              <p class="impact-tag">Fintech product support and client communication</p>
+              <p class="impact-tag" data-i18n="exp_tag_4">Fintech product support and client communication</p>
             </div>
-            <p>
+            <p data-i18n="exp_text_4">
               Supported business discussions with banking clients on digital
               certificate management systems and trust-service certificate
               solutions in a regulated fintech environment. The role provided
@@ -295,9 +302,9 @@
               financial-institution service needs.
             </p>
             <ul class="detail-list">
-              <li>Supported client-facing communication and meeting preparation for financial institution accounts.</li>
-              <li>Built familiarity with digital trust infrastructure, certification products, and fintech service workflows.</li>
-              <li>Strengthened professional communication, commercial awareness, and understanding of regulated client needs.</li>
+              <li data-i18n="exp_bullet_4_1">Supported client-facing communication and meeting preparation for financial institution accounts.</li>
+              <li data-i18n="exp_bullet_4_2">Built familiarity with digital trust infrastructure, certification products, and fintech service workflows.</li>
+              <li data-i18n="exp_bullet_4_3">Strengthened professional communication, commercial awareness, and understanding of regulated client needs.</li>
             </ul>
           </article>
         </div>
@@ -305,14 +312,14 @@
 
       <section id="skills" class="reveal">
         <div class="section-heading">
-          <p class="section-kicker">Professional Skills</p>
-          <h2>A broader professional toolkit across finance, analytics and business execution.</h2>
+          <p class="section-kicker" data-i18n="skills_kicker">Professional Skills</p>
+          <h2 data-i18n="skills_heading">A broader professional toolkit across finance, analytics and business execution.</h2>
         </div>
 
         <div class="skill-grid">
           <article class="skill-card">
-            <h3>Finance and Corporate Analysis</h3>
-            <p>
+            <h3 data-i18n="skill_title_1">Finance and Corporate Analysis</h3>
+            <p data-i18n="skill_text_1">
               I work with corporate-finance concepts, financial management
               fundamentals, economic analysis, financial ratio interpretation,
               budgeting logic, and business analysis in structured financial
@@ -320,40 +327,40 @@
             </p>
           </article>
           <article class="skill-card">
-            <h3>Academic and Quantitative Strength</h3>
-            <p>
+            <h3 data-i18n="skill_title_2">Academic and Quantitative Strength</h3>
+            <p data-i18n="skill_text_2">
               I bring a strong academic foundation, top-ranking performance, and
               quantitative discipline supported by Excel, Power BI, Tableau,
               Stata, Python, and EViews for structured analysis and decision support.
             </p>
           </article>
           <article class="skill-card">
-            <h3>Investment and Market Readiness</h3>
-            <p>
+            <h3 data-i18n="skill_title_3">Investment and Market Readiness</h3>
+            <p data-i18n="skill_text_3">
               I am comfortable with market observation, investment-oriented
               research support, and information gathering using Bloomberg
               Terminal, Wind, and disciplined analytical reasoning.
             </p>
           </article>
           <article class="skill-card">
-            <h3>IT and Analytical Tools</h3>
-            <p>
+            <h3 data-i18n="skill_title_4">IT and Analytical Tools</h3>
+            <p data-i18n="skill_text_4">
               I use Python and analytical software to support data processing,
               workflow understanding, reporting, and problem solving across
               finance and business contexts.
             </p>
           </article>
           <article class="skill-card">
-            <h3>Operations and Process Execution</h3>
-            <p>
+            <h3 data-i18n="skill_title_5">Operations and Process Execution</h3>
+            <p data-i18n="skill_text_5">
               I am experienced in workflow analysis, documentation, testing
               discipline, defect logging, process optimization support, and
               coordination across structured project environments.
             </p>
           </article>
           <article class="skill-card">
-            <h3>Communication and Professional Readiness</h3>
-            <p>
+            <h3 data-i18n="skill_title_6">Communication and Professional Readiness</h3>
+            <p data-i18n="skill_text_6">
               I communicate in Cantonese, Mandarin, and English, and I have
               passed HKSI Licensing Examination Paper 1, which strengthens my
               readiness for professional finance and market-facing roles.
@@ -364,9 +371,9 @@
 
       <section class="contact-panel reveal" id="contact">
         <div>
-          <p class="section-kicker">Contact</p>
-          <h2>I am available for professional opportunities.</h2>
-          <p>
+          <p class="section-kicker" data-i18n="contact_kicker">Contact</p>
+          <h2 data-i18n="contact_heading">I am available for professional opportunities.</h2>
+          <p data-i18n="contact_text">
             I am open to roles in finance, investment analysis, banking,
             strategy support, business analysis, operations, and management
             trainee programs.
@@ -380,8 +387,8 @@
     </main>
 
     <footer class="footer reveal">
-      <p>This is my personal portfolio.</p>
-      <p>
+      <p data-i18n="footer_line_1">This is my personal portfolio.</p>
+      <p data-i18n="footer_line_2">
         I use this site to share my profile, experience, and professional focus.
       </p>
     </footer>

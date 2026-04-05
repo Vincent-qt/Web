@@ -35,6 +35,10 @@ body {
   overflow-x: hidden;
 }
 
+body[data-lang="zhHant"] {
+  font-family: "Songti TC", "Noto Serif TC", "PingFang TC", "PMingLiU", serif;
+}
+
 a {
   color: inherit;
 }
@@ -101,6 +105,12 @@ main,
   box-shadow: 0 18px 42px rgba(77, 67, 48, 0.1);
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -144,6 +154,30 @@ nav a {
 
 nav a:hover {
   color: var(--text);
+}
+
+.lang-toggle {
+  border: 1px solid rgba(174, 134, 71, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.74);
+  color: var(--text);
+  min-height: 40px;
+  padding: 0.55rem 0.95rem;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.lang-toggle:hover {
+  transform: translateY(-1px);
+  border-color: rgba(174, 134, 71, 0.42);
+  box-shadow: 0 10px 20px rgba(77, 67, 48, 0.08);
 }
 
 main {
@@ -659,6 +693,10 @@ section {
     border-radius: 26px;
     justify-content: center;
     text-align: center;
+  }
+
+  .topbar-actions {
+    flex-direction: column;
   }
 
   nav {
