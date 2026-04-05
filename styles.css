@@ -39,6 +39,10 @@ body[data-lang="zhHant"] {
   font-family: "Songti TC", "Noto Serif TC", "PingFang TC", "PMingLiU", serif;
 }
 
+body[data-lang="zhHans"] {
+  font-family: "Songti SC", "Noto Serif SC", "PingFang SC", "STSong", serif;
+}
+
 a {
   color: inherit;
 }
@@ -172,7 +176,7 @@ nav a:hover {
   background: transparent;
   color: var(--muted);
   min-height: 36px;
-  min-width: 60px;
+  min-width: 64px;
   padding: 0.4rem 0.8rem;
   font: inherit;
   font-size: 0.8rem;

@@ -292,6 +292,142 @@ const translations = {
     footer_line_1: "這是我的個人專業網站。",
     footer_line_2: "我透過這個網站分享我的背景、經驗與專業方向。",
     footer_line_3: "2026 LAI Qitai 版權所有。"
+  },
+  zhHans: {
+    page_title: "Vincent Qitai Lai | 金融与分析个人网站",
+    page_description:
+      "我目前就读香港理工大学企业融资方向金融学硕士，具备银行营运、财务管理教学支持、流程优化、软件测试、投资研究与商业分析等经验。",
+    nav_profile: "个人介绍",
+    nav_education: "教育背景",
+    nav_exchange: "交流项目",
+    nav_experience: "实习经历",
+    nav_skills: "专业技能",
+    nav_contact: "联系方式",
+    hero_eyebrow: "金融 | 策略 | 分析",
+    hero_line_1: "对金融充满热情。",
+    hero_line_2: "专注于金融与科技的结合。",
+    hero_line_3: "重视分析能力与专业执行。",
+    hero_summary:
+      "我以对金融的兴趣、严谨的分析训练，以及对科技如何提升研究、决策与执行效率的关注，建立自己的专业方向。",
+    hero_status: "开放金融、银行及分析相关职位机会",
+    identity_role: "金融学硕士学生",
+    identity_item_1: "香港理工大学",
+    identity_item_2: "企业融资方向",
+    identity_item_3: "银行与分析能力",
+    hero_focus_label: "专注方向",
+    hero_focus_text: "企业融资、投资分析、银行业务及分析类职位。",
+    contact_me: "联系我",
+    view_cv: "查看履历",
+    metric_mf_gpa: "金融硕士 GPA",
+    metric_ba_gpa: "本科 GPA",
+    metric_ranked: "排名第 1",
+    metric_scholarship: "PolyU Asian Capital Scholarship",
+    profile_kicker: "个人介绍",
+    profile_heading: "我具备涵盖金融、估值、投资分析与科技驱动问题解决能力的完整专业组合。",
+    profile_p1:
+      "我目前于香港理工大学就读金融学硕士（企业融资方向），目前 GPA 为 4.0/4.3，并以课程总排名第一获得 Asian Capital Scholarship。我亦持有澳门城市大学应用经济学学士学位，本科 GPA 为 3.92/4.0，并曾获多项学术荣誉与奖学金。",
+    profile_p2:
+      "在专业能力方面，我具备企业估值、财务会计及投资分析的扎实基础，熟悉 DCF 估值、可比公司分析、可比交易分析、三表模型、盈余质量分析、资本结构分析、WACC 估算、敏感度分析，以及财务报表解读。",
+    profile_p3:
+      "在技术层面，我熟悉 Python、Stata、EViews、Power BI、Tableau、Bloomberg 及 Wind，并特别关注金融与科技的交叉应用。我也会运用 AI 辅助开发流程，快速原型化因子型量化交易策略，用于筛选、回测、组合构建与风险管理。除学术训练外，我亦有实际参与港股与美股投资，接触过股票、期权、期货与组合策略，并以纪律化执行与风险控制作为核心方法。",
+    capability_kicker: "我能带来的价值",
+    capability_title_1: "财务分析",
+    capability_text_1: "能够解读财务信息、支持报告工作，并以分析证据和金融逻辑回应业务问题。",
+    capability_title_2: "流程优化",
+    capability_text_2: "能够检视工作流程、识别营运缺口，并以结构化分析与文档化方式支持效率提升。",
+    capability_title_3: "跨部门协作",
+    capability_text_3: "能在学术、技术及银行相关环境中进行清晰沟通，保持专业度与稳定执行力。",
+    capability_title_4: "投资与科技能力",
+    capability_text_4: "能够结合市场工具、研究思维、测试逻辑与 Python 分析能力，支持金融科技相关工作场景。",
+    education_kicker: "教育背景",
+    education_heading: "稳定而突出的学术表现。",
+    education_meta_1: "09/2025 - 06/2026 | 香港",
+    education_school_1: "香港理工大学",
+    education_lead_1: "金融学硕士（企业融资方向）",
+    education_text_1:
+      "于 2025-2026 学年获颁 Asian Capital Scholarship，并于金融学硕士课程中排名第一。",
+    education_meta_2: "09/2021 - 06/2025 | 澳门",
+    education_school_2: "澳门城市大学",
+    education_lead_2: "应用经济学学士，金融学院",
+    education_text_2:
+      "连续三年获院长嘉许名单，并获 Luso International Banking Ltd. 奖学金及 CHEUNG Kovu Scholarship。",
+    exchange_kicker: "交流项目",
+    exchange_heading: "通过国际学术交流进一步拓展分析能力与商业视野。",
+    exchange_meta_1: "07/2024 - 08/2024 | 英国剑桥",
+    exchange_school_1: "剑桥大学",
+    exchange_lead_1: "Business Analysis 暑期课程",
+    exchange_text_1:
+      "完成 Business Analysis 密集课程，重点涵盖问题拆解、商业模式评估、市场与产业分析、数据支持决策，以及案例分析方法。该课程进一步提升我将商业问题转化为分析框架、并在国际学术环境中清晰提出实务建议的能力。",
+    exchange_meta_2: "2023 | 香港",
+    exchange_school_2: "香港中文大学",
+    exchange_lead_2: "学术交流项目",
+    exchange_text_2:
+      "参与短期学术交流，进一步接触香港的大学学术环境、跨学科学习文化及区域商业背景。这段经历提升了我的跨文化沟通、协作学习与在高要求学术环境中的适应能力。",
+    experience_kicker: "实习经历",
+    experience_heading: "展现金融、营运与执行能力的实务经验。",
+    exp_meta_1: "09/2023 - 06/2024 | 澳门",
+    exp_title_1: "财务管理课程助教",
+    exp_company_1: "澳门城市大学金融学院",
+    exp_tag_1: "教学支持与学术质量",
+    exp_text_1:
+      "负责财务管理课程的作业批改、考试检视及学生反馈管理，协助课程稳定运行。工作内容要求严谨的学术判断、一致的评分标准，以及能够以清晰有条理的方式解释货币时间价值、资本预算与财务比率分析等核心概念。",
+    exp_bullet_1_1: "维持作业与试卷评分的一致性，支持课程学术质量管控。",
+    exp_bullet_1_2: "于答疑与教学支持过程中，清楚讲解财务管理核心概念。",
+    exp_bullet_1_3: "提升金融场景下的沟通、展示及教学支持能力。",
+    exp_meta_2: "07/2023 - 08/2023 | 佛山",
+    exp_title_2: "初级工程师",
+    exp_company_2: "上海中软国际华腾软件系统有限公司",
+    exp_tag_2: "银行流程测试与缺陷管理",
+    exp_text_2:
+      "参与按揭审批系统测试，直接接触贷款申请流程、文件核验逻辑、授信评估步骤及审批节点控制。主要工作涵盖测试规划、业务场景测试执行、缺陷识别与问题文档化，对银行流程准确性有直接要求。",
+    exp_bullet_2_1: "将业务需求与作业流程转化为结构化功能测试场景。",
+    exp_bullet_2_2: "覆盖正常流程、异常情况与边界条件，提升测试完整度。",
+    exp_bullet_2_3: "撰写具追踪性的缺陷报告，提升后续修复与协作效率。",
+    exp_meta_3: "05/2022 - 08/2022 | 广州",
+    exp_title_3: "体验管理部实习生",
+    exp_company_3: "广发银行总行信用卡中心",
+    exp_tag_3: "营运分析与项目协调",
+    exp_text_3:
+      "支持信用卡中心的项目执行、营运报告与流程优化工作，参与流程分析、活动支持、资料整合、培训跟进，以及内部创新与服务改善相关协调事项。",
+    exp_bullet_3_1: "以结构化分析方式支持流程优化与营运改善工作。",
+    exp_bullet_3_2: "协调培训、报告与项目执行相关的跨部门任务。",
+    exp_bullet_3_3: "运用 JMP 分析并整理资料，支持内部报告与管理需求。",
+    exp_meta_4: "01/2022 - 02/2022 | 广州",
+    exp_title_4: "市场部实习生",
+    exp_company_4: "中国金融认证中心（CFCA）",
+    exp_tag_4: "金融科技产品支持与客户沟通",
+    exp_text_4:
+      "支持与银行客户就数字证书管理系统及信任服务证书方案的业务交流，在受监管的金融科技环境中接触产品沟通、客户协调及金融机构服务需求。",
+    exp_bullet_4_1: "支持金融机构客户的会议准备与客户沟通工作。",
+    exp_bullet_4_2: "建立对数字信任基础设施、认证产品及金融科技流程的理解。",
+    exp_bullet_4_3: "提升专业沟通、商业敏感度及对受监管客户需求的认识。",
+    skills_kicker: "专业技能",
+    skills_heading: "涵盖金融、分析与商业执行的完整能力组合。",
+    skill_title_1: "金融与企业分析",
+    skill_text_1:
+      "熟悉企业融资概念、财务管理基础、经济分析、财务比率解读、预算逻辑及商业分析，可在结构化金融环境中开展分析工作。",
+    skill_title_2: "学术与量化能力",
+    skill_text_2:
+      "具备扎实学术基础与顶尖成绩表现，并能运用 Excel、Power BI、Tableau、Stata、Python 及 EViews 进行量化分析与决策支持。",
+    skill_title_3: "投资与市场能力",
+    skill_text_3:
+      "熟悉市场观察、投资研究支持及信息搜集，并能运用 Bloomberg Terminal、Wind 及严谨分析思维支持投资判断。",
+    skill_title_4: "信息与分析工具",
+    skill_text_4:
+      "能运用 Python 与多种分析工具支持资料处理、流程理解、报告整理及跨金融与商业场景的问题解决。",
+    skill_title_5: "营运与流程执行",
+    skill_text_5:
+      "具备流程分析、文档撰写、测试纪律、缺陷记录、流程优化支持及项目环境协作能力。",
+    skill_title_6: "沟通能力与职业准备",
+    skill_text_6:
+      "可使用广东话、普通话及英语进行专业沟通，并已通过 HKSI Licensing Examination Paper 1，进一步提升金融及市场相关职位的就业准备度。",
+    contact_kicker: "联系方式",
+    contact_heading: "目前开放专业职位机会。",
+    contact_text:
+      "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
+    footer_line_1: "这是我的个人专业网站。",
+    footer_line_2: "我通过这个网站分享我的背景、经验与专业方向。",
+    footer_line_3: "2026 LAI Qitai 版权所有。"
   }
 };
 
@@ -299,7 +435,7 @@ const revealNodes = document.querySelectorAll(".reveal");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const langButtons = document.querySelectorAll("[data-set-lang]");
 const siteDescription = document.querySelector("#site-description");
-const supportedLanguages = ["en", "zhHant"];
+const supportedLanguages = ["en", "zhHant", "zhHans"];
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -332,7 +468,8 @@ function setLanguage(language) {
     }
   });
 
-  document.documentElement.lang = nextLanguage === "zhHant" ? "zh-Hant" : "en";
+  document.documentElement.lang =
+    nextLanguage === "zhHant" ? "zh-Hant" : nextLanguage === "zhHans" ? "zh-Hans" : "en";
   document.body.dataset.lang = nextLanguage;
   document.title = copy.page_title;
 
