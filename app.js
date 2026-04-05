@@ -2,7 +2,7 @@ const translations = {
   en: {
     page_title: "Vincent Qitai Lai | Finance and Analytics Portfolio",
     page_description:
-      "I am a Master of Finance candidate with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics.",
+      "I am a Master of Finance student with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics.",
     nav_profile: "Profile",
     nav_education: "Education",
     nav_experience: "Experience",
@@ -15,7 +15,7 @@ const translations = {
     hero_summary:
       "I combine financial curiosity with analytical discipline and a strong interest in how technology can improve research, decision-making, and execution.",
     hero_status: "Open to finance, banking and analyst-track opportunities",
-    identity_role: "Master of Finance Candidate",
+    identity_role: "Master of Finance Student",
     identity_item_1: "The Hong Kong Polytechnic University",
     identity_item_2: "Corporate Finance",
     identity_item_3: "Banking and Analytics",
@@ -159,7 +159,7 @@ const translations = {
     hero_summary:
       "我以對金融的興趣、嚴謹的分析訓練，以及對科技如何提升研究、決策與執行效率的關注，建立自己的專業方向。",
     hero_status: "開放金融、銀行及分析相關職位機會",
-    identity_role: "金融學碩士候選人",
+    identity_role: "金融學碩士學生",
     identity_item_1: "香港理工大學",
     identity_item_2: "企業融資方向",
     identity_item_3: "銀行與分析能力",
