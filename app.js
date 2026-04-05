@@ -30,7 +30,7 @@ const translations = {
     metric_scholarship: "PolyU Asian Capital Scholarship",
     profile_kicker: "Professional Profile",
     profile_heading:
-      "I combine rigorous finance training, practical valuation expertise, and technology-enabled execution.",
+      "I offer a well-rounded profile across finance, valuation, investment analysis, and technology-driven problem solving.",
     profile_p1:
       "I am currently pursuing a Master of Finance in Corporate Finance at The Hong Kong Polytechnic University, where I hold a GPA of 4.0 out of 4.3 and was awarded the Asian Capital Scholarship as the top-ranked student in the programme. I also hold a Bachelor of Applied Economics from the City University of Macau, where I graduated with a GPA of 3.92 out of 4.0 and received multiple academic honours and scholarships.",
     profile_p2:
@@ -171,7 +171,7 @@ const translations = {
     metric_ranked: "排名第 1",
     metric_scholarship: "PolyU Asian Capital Scholarship",
     profile_kicker: "個人介紹",
-    profile_heading: "我結合嚴謹的金融訓練、扎實的估值能力，以及科技驅動的執行力。",
+    profile_heading: "我具備涵蓋金融、估值、投資分析與科技驅動問題解決能力的完整專業組合。",
     profile_p1:
       "我目前於香港理工大學修讀金融學碩士（企業融資方向），目前 GPA 為 4.0/4.3，並以課程總排名第一獲得 Asian Capital Scholarship。我亦持有澳門城市大學應用經濟學學士學位，本科 GPA 為 3.92/4.0，並曾獲多項學術榮譽與獎學金。",
     profile_p2:
