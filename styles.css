@@ -637,6 +637,10 @@ section {
   gap: 1rem;
 }
 
+.contact-note {
+  margin-top: 0.8rem;
+}
+
 .footer {
   margin-top: 1.4rem;
   margin-bottom: 2rem;

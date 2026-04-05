@@ -152,6 +152,7 @@ const translations = {
     contact_heading: "I am actively seeking professional opportunities.",
     contact_text:
       "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
+    contact_note: "Please feel free to reach me through the channels below.",
     footer_line_1: "This is my personal portfolio.",
     footer_line_2:
       "I use this site to share my profile, experience, and professional focus.",
@@ -289,6 +290,7 @@ const translations = {
     contact_heading: "目前正在尋找專業職位機會。",
     contact_text:
       "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
+    contact_note: "歡迎透過以下方式與我聯絡。",
     footer_line_1: "這是我的個人專業網站。",
     footer_line_2: "我透過這個網站分享我的背景、經驗與專業方向。",
     footer_line_3: "2026 LAI Qitai 版權所有。"
@@ -425,6 +427,7 @@ const translations = {
     contact_heading: "目前正在寻找专业职位机会。",
     contact_text:
       "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
+    contact_note: "欢迎通过以下方式与我联系。",
     footer_line_1: "这是我的个人专业网站。",
     footer_line_2: "我通过这个网站分享我的背景、经验与专业方向。",
     footer_line_3: "2026 LAI Qitai 版权所有。"
