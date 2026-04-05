@@ -5,6 +5,7 @@ const translations = {
       "I am a Master of Finance student with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics.",
     nav_profile: "Profile",
     nav_education: "Education",
+    nav_exchange: "Exchange",
     nav_experience: "Experience",
     nav_skills: "Skills",
     nav_contact: "Contact",
@@ -62,6 +63,19 @@ const translations = {
     education_lead_2: "Bachelor of Applied Economics, Faculty of Finance",
     education_text_2:
       "I was recognized on the Dean's List for three consecutive academic years, with additional scholarship awards from Luso International Banking Ltd. and CHEUNG Kovu Scholarship.",
+    exchange_kicker: "Academic Exchange",
+    exchange_heading:
+      "International academic exposure that strengthened my analytical and business perspective.",
+    exchange_meta_1: "07/2024 - 08/2024 | Cambridge, United Kingdom",
+    exchange_school_1: "University of Cambridge",
+    exchange_lead_1: "Summer School in Business Analysis",
+    exchange_text_1:
+      "Completed intensive study in business analysis with emphasis on problem structuring, business-model evaluation, market and industry assessment, data-informed decision-making, and case-based analysis. The programme strengthened my ability to translate business questions into analytical frameworks and communicate practical recommendations in an international academic setting.",
+    exchange_meta_2: "2023 | Hong Kong",
+    exchange_school_2: "The Chinese University of Hong Kong",
+    exchange_lead_2: "Academic Exchange Programme",
+    exchange_text_2:
+      "Participated in a short-term academic exchange that broadened my exposure to Hong Kong's university environment, interdisciplinary learning culture, and regional business context. The experience strengthened cross-cultural communication, collaborative learning, and adaptability in a high-performing academic setting.",
     experience_kicker: "Internship Experience",
     experience_heading: "Experience that shows domain range and execution depth.",
     exp_meta_1: "09/2023 - 06/2024 | Macau",
@@ -149,6 +163,7 @@ const translations = {
       "我目前修讀香港理工大學企業融資方向金融學碩士，具備銀行營運、財務管理教學支援、流程優化、軟件測試、投資研究與商業分析等經驗。",
     nav_profile: "個人介紹",
     nav_education: "教育背景",
+    nav_exchange: "交流項目",
     nav_experience: "實習經歷",
     nav_skills: "專業技能",
     nav_contact: "聯絡方式",
@@ -200,6 +215,18 @@ const translations = {
     education_lead_2: "應用經濟學學士，金融學院",
     education_text_2:
       "連續三年獲院長嘉許名單，並獲 Luso International Banking Ltd. 獎學金及 CHEUNG Kovu Scholarship。",
+    exchange_kicker: "交流項目",
+    exchange_heading: "透過國際學術交流進一步拓展分析能力與商業視野。",
+    exchange_meta_1: "07/2024 - 08/2024 | 英國劍橋",
+    exchange_school_1: "劍橋大學",
+    exchange_lead_1: "Business Analysis 暑期課程",
+    exchange_text_1:
+      "完成 Business Analysis 密集課程，重點涵蓋問題拆解、商業模式評估、市場與產業分析、數據支持決策，以及案例分析方法。該課程進一步提升我將商業問題轉化為分析框架、並在國際學術環境中清晰提出實務建議的能力。",
+    exchange_meta_2: "2023 | 香港",
+    exchange_school_2: "香港中文大學",
+    exchange_lead_2: "學術交流項目",
+    exchange_text_2:
+      "參與短期學術交流，進一步接觸香港的大學學術環境、跨學科學習文化及區域商業背景。這段經歷提升了我的跨文化溝通、協作學習與在高要求學術環境中的適應能力。",
     experience_kicker: "實習經歷",
     experience_heading: "展現金融、營運與執行能力的實務經驗。",
     exp_meta_1: "09/2023 - 06/2024 | 澳門",
