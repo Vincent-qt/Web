@@ -325,7 +325,7 @@ main {
   margin: 0.55rem 0 0;
   color: var(--text);
   line-height: 1.5;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
 }
 
 .eyebrow,
@@ -499,21 +499,24 @@ h3 {
 .identity-name {
   margin: 0;
   color: var(--text);
-  font-size: 1.12rem;
+  font-size: 1.22rem;
   font-weight: 800;
+  line-height: 1.25;
 }
 
 .identity-role {
   margin: 0.2rem 0 0;
-  font-size: 1.02rem;
+  font-size: 1.1rem;
   color: var(--text);
+  line-height: 1.35;
 }
 
 .identity-list {
   margin: 0.9rem 0 0;
   padding-left: 1.1rem;
   color: var(--text);
-  font-size: 1.02rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 section {
@@ -631,7 +634,7 @@ section {
 
 .hero-note-label {
   color: var(--text);
-  font-size: 0.82rem;
+  font-size: 0.86rem;
 }
 
 .skill-grid {
