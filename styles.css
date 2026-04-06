@@ -223,6 +223,7 @@ main {
 .card,
 .timeline-item,
 .skill-card,
+.visa-panel,
 .contact-panel,
 .footer {
   border: 1px solid var(--line);
@@ -660,10 +661,15 @@ section {
   margin-top: 0.8rem;
 }
 
+.visa-panel {
+  margin-top: 1.15rem;
+  padding: 1.3rem 1.5rem;
+}
+
 .visa-note {
-  margin: 1rem 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
+  margin: 0.3rem 0 0;
+  color: var(--text);
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -787,6 +793,7 @@ section {
   .card,
   .timeline-item,
   .skill-card,
+  .visa-panel,
   .contact-panel {
     padding: 1.15rem;
   }

@@ -153,6 +153,7 @@ const translations = {
     contact_text:
       "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
     contact_note: "Please feel free to reach me through the channels below.",
+    visa_kicker: "Visa Status",
     visa_note: "Visa status: Eligible to apply for Hong Kong IANG visa.",
     footer_line_1: "This is my personal portfolio.",
     footer_line_2:
@@ -292,6 +293,7 @@ const translations = {
     contact_text:
       "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
     contact_note: "歡迎透過以下方式與我聯絡。",
+    visa_kicker: "簽證情況",
     visa_note: "簽證情況：本人有資格申請香港 IANG 簽證。",
     footer_line_1: "這是我的個人專業網站。",
     footer_line_2: "我透過這個網站分享我的背景、經驗與專業方向。",
@@ -430,6 +432,7 @@ const translations = {
     contact_text:
       "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
     contact_note: "欢迎通过以下方式与我联系。",
+    visa_kicker: "签证情况",
     visa_note: "签证情况：本人有资格申请香港 IANG 签证。",
     footer_line_1: "这是我的个人专业网站。",
     footer_line_2: "我通过这个网站分享我的背景、经验与专业方向。",
