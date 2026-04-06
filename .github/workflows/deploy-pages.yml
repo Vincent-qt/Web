@@ -27,13 +27,15 @@ jobs:
 
       - name: Prepare static site
         run: |
+          BUILD_VERSION=$(git rev-parse --short HEAD)
           mkdir -p _site
-          cp index.html _site/index.html
+          sed "s/__BUILD_VERSION__/${BUILD_VERSION}/g" index.html > _site/index.html
           cp styles.css _site/styles.css
           cp app.js _site/app.js
           cp CNAME _site/CNAME
           cp 1b16bcde048d0dadfdb4ceaa3482147f.txt _site/1b16bcde048d0dadfdb4ceaa3482147f.txt
           cp -R assets _site/assets
+          printf '{\n  "build": "%s"\n}\n' "$BUILD_VERSION" > _site/version.json
           touch _site/.nojekyll
 
       - name: Upload artifact

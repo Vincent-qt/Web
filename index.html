@@ -3,13 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="site-build-version" content="__BUILD_VERSION__" />
     <title>Vincent Qitai Lai | Finance and Analytics Portfolio</title>
     <meta
       id="site-description"
       name="description"
       content="I am a Master of Finance student with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics."
     />
-    <link rel="stylesheet" href="./styles.css?v=20260405e" />
+    <script>
+      (function () {
+        const currentBuild =
+          document.querySelector('meta[name="site-build-version"]')?.content || "dev";
+        const reloadKey = "site-build-reloaded";
+
+        fetch("./version.json?ts=" + Date.now(), { cache: "no-store" })
+          .then((response) => (response.ok ? response.json() : null))
+          .then((payload) => {
+            if (!payload || !payload.build || payload.build === currentBuild) {
+              sessionStorage.removeItem(reloadKey);
+              return;
+            }
+
+            const lastReloadedBuild = sessionStorage.getItem(reloadKey);
+            if (lastReloadedBuild === payload.build) {
+              return;
+            }
+
+            sessionStorage.setItem(reloadKey, payload.build);
+            const url = new URL(window.location.href);
+            url.searchParams.set("cv", payload.build);
+            window.location.replace(url.toString());
+          })
+          .catch(() => {
+            sessionStorage.removeItem(reloadKey);
+          });
+      })();
+    </script>
+    <link rel="stylesheet" href="./styles.css?v=__BUILD_VERSION__" />
   </head>
   <body>
     <div class="aurora aurora-left" aria-hidden="true"></div>
@@ -444,6 +477,6 @@
       <p data-i18n="footer_line_3">2026 LAI Qitai. All rights reserved.</p>
     </footer>
 
-    <script src="./app.js?v=20260405e"></script>
+    <script src="./app.js?v=__BUILD_VERSION__"></script>
   </body>
 </html>
