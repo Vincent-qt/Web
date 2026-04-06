@@ -660,6 +660,13 @@ section {
   margin-top: 0.8rem;
 }
 
+.visa-note {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .footer {
   margin-top: 1.4rem;
   margin-bottom: 2rem;
