@@ -33,6 +33,8 @@ jobs:
           cp styles.css _site/styles.css
           cp app.js _site/app.js
           cp CNAME _site/CNAME
+          cp robots.txt _site/robots.txt
+          cp sitemap.xml _site/sitemap.xml
           cp 1b16bcde048d0dadfdb4ceaa3482147f.txt _site/1b16bcde048d0dadfdb4ceaa3482147f.txt
           cp -R assets _site/assets
           printf '{\n  "build": "%s"\n}\n' "$BUILD_VERSION" > _site/version.json
