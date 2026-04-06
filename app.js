@@ -15,7 +15,7 @@ const translations = {
     hero_line_3: "Committed to analytical thinking and professional execution.",
     hero_summary:
       "I combine financial curiosity with analytical discipline and a strong interest in how technology can improve research, decision-making, and execution.",
-    hero_status: "Open to finance, banking and analyst-track opportunities",
+    hero_status: "Currently seeking roles in finance, banking, and analyst-track functions",
     identity_role: "Master of Finance Student",
     identity_item_1: "The Hong Kong Polytechnic University",
     identity_item_2: "Corporate Finance",
@@ -174,7 +174,7 @@ const translations = {
     hero_line_3: "重視分析能力與專業執行。",
     hero_summary:
       "我以對金融的興趣、嚴謹的分析訓練，以及對科技如何提升研究、決策與執行效率的關注，建立自己的專業方向。",
-    hero_status: "開放金融、銀行及分析相關職位機會",
+    hero_status: "目前正在尋找金融、銀行及分析相關工作機會",
     identity_role: "金融學碩士學生",
     identity_item_1: "香港理工大學",
     identity_item_2: "企業融資方向",
@@ -311,7 +311,7 @@ const translations = {
     hero_line_3: "重视分析能力与专业执行。",
     hero_summary:
       "我以对金融的兴趣、严谨的分析训练，以及对科技如何提升研究、决策与执行效率的关注，建立自己的专业方向。",
-    hero_status: "开放金融、银行及分析相关职位机会",
+    hero_status: "目前正在寻找金融、银行及分析相关工作机会",
     identity_role: "金融学硕士学生",
     identity_item_1: "香港理工大学",
     identity_item_2: "企业融资方向",
