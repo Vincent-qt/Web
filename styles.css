@@ -272,6 +272,33 @@ main {
   margin-top: 0.35rem;
 }
 
+.hero-role-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-role-tags li {
+  padding: 0.45rem 0.85rem;
+  border: 1px solid rgba(174, 134, 71, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-location-note {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
 .hero-main {
   grid-template-columns: minmax(0, 1.2fr) minmax(340px, 0.8fr);
   align-items: start;
@@ -739,6 +766,10 @@ section {
     white-space: normal;
   }
 
+  .hero-role-tags {
+    gap: 0.55rem;
+  }
+
   .hero-identity {
     justify-self: start;
     max-width: 100%;
@@ -804,6 +835,11 @@ section {
 
   h2 {
     font-size: 2.1rem;
+  }
+
+  .hero-role-tags li {
+    width: 100%;
+    text-align: center;
   }
 
 }

@@ -1,28 +1,39 @@
 const translations = {
   en: {
-    page_title: "Vincent Qitai Lai | Finance and Analytics Portfolio",
+    page_title:
+      "Vincent Qitai Lai | Investment Analyst, Corporate Finance and Banking Candidate",
     page_description:
-      "I am a Master of Finance student with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics.",
+      "Master of Finance candidate in Hong Kong with experience in corporate finance, investment analysis, banking operations, software QA, and business analytics. Open to analyst, graduate, and management trainee roles.",
     nav_profile: "Profile",
     nav_education: "Education",
     nav_exchange: "Exchange",
     nav_experience: "Experience",
     nav_skills: "Skills",
     nav_contact: "Contact",
-    hero_eyebrow: "Finance | Strategy | Analytics",
-    hero_line_1: "Passionate about finance.",
-    hero_line_2: "Focused on the intersection of finance and technology.",
-    hero_line_3: "Committed to analytical thinking and professional execution.",
+    hero_eyebrow: "Open to Opportunities | Hong Kong | Finance & Analytics",
+    hero_line_1: "Master of Finance candidate for analyst-track roles.",
+    hero_line_2:
+      "Focused on investment analysis, corporate finance, banking, and business analytics.",
+    hero_line_3:
+      "Combining finance training with Python, testing logic, and technology fluency.",
     hero_summary:
-      "I combine financial curiosity with analytical discipline and a strong interest in how technology can improve research, decision-making, and execution.",
-    hero_status: "Currently seeking roles in finance, banking, and analyst-track functions",
-    identity_role: "Master of Finance Student",
+      "I bring top academic performance, hands-on banking and fintech exposure, and a strong interest in how technology improves research, execution, and decision-making.",
+    hero_status:
+      "Actively seeking analyst, graduate, and management trainee opportunities in Hong Kong",
+    hero_role_1: "Investment Analyst",
+    hero_role_2: "Corporate Finance",
+    hero_role_3: "Banking Analyst",
+    hero_role_4: "Business Analyst",
+    hero_role_5: "Management Trainee",
+    hero_location_note:
+      "Based in Hong Kong. Eligible to apply for the IANG visa after graduation.",
+    identity_role: "Master of Finance Candidate",
     identity_item_1: "The Hong Kong Polytechnic University",
     identity_item_2: "Corporate Finance",
-    identity_item_3: "Banking and Analytics",
+    identity_item_3: "Investment Analysis and Banking",
     hero_focus_label: "Focus",
     hero_focus_text:
-      "Corporate finance, investment analysis, banking, and analyst-track roles.",
+      "Investment analysis, corporate finance, banking, business analysis, and management trainee roles.",
     contact_me: "Contact Me",
     view_cv: "View CV",
     metric_mf_gpa: "Master of Finance GPA",
@@ -151,7 +162,7 @@ const translations = {
     contact_kicker: "Contact",
     contact_heading: "I am actively seeking professional opportunities.",
     contact_text:
-      "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
+      "I am open to investment analyst, corporate finance analyst, banking analyst, business analyst, strategy support, operations, and management trainee roles.",
     contact_note: "Please feel free to reach me through the channels below.",
     visa_kicker: "Visa Status",
     visa_note: "Visa status: Eligible to apply for Hong Kong IANG visa.",
@@ -161,28 +172,34 @@ const translations = {
     footer_line_3: "2026 LAI Qitai. All rights reserved."
   },
   zhHant: {
-    page_title: "Vincent Qitai Lai | 金融與分析個人網站",
+    page_title: "Vincent Qitai Lai | 投資分析、企業融資與銀行方向求職網站",
     page_description:
-      "我目前修讀香港理工大學企業融資方向金融學碩士，具備銀行營運、財務管理教學支援、流程優化、軟件測試、投資研究與商業分析等經驗。",
+      "香港理工大學金融學碩士（企業融資方向）學生，具備投資分析、企業融資、銀行營運、軟件測試與商業分析經驗，正尋找香港的分析師、Graduate 與 Management Trainee 職位。",
     nav_profile: "個人介紹",
     nav_education: "教育背景",
     nav_exchange: "交流項目",
     nav_experience: "實習經歷",
     nav_skills: "專業技能",
     nav_contact: "聯絡方式",
-    hero_eyebrow: "金融 | 策略 | 分析",
-    hero_line_1: "對金融充滿熱情。",
-    hero_line_2: "專注於金融與科技的結合。",
-    hero_line_3: "重視分析能力與專業執行。",
+    hero_eyebrow: "求職中 | 香港 | 金融與分析",
+    hero_line_1: "金融學碩士，目標分析師發展路徑。",
+    hero_line_2: "專注投資分析、企業融資、銀行與商業分析。",
+    hero_line_3: "結合金融訓練、Python 能力與科技理解。",
     hero_summary:
-      "我以對金融的興趣、嚴謹的分析訓練，以及對科技如何提升研究、決策與執行效率的關注，建立自己的專業方向。",
-    hero_status: "目前正在尋找金融、銀行及分析相關工作機會",
-    identity_role: "金融學碩士學生",
+      "我具備突出的學術成績、銀行與金融科技實務接觸，並持續關注科技如何提升研究、執行與決策效率。",
+    hero_status: "目前正積極尋找香港的分析師、Graduate 及 Management Trainee 工作機會",
+    hero_role_1: "投資分析",
+    hero_role_2: "企業融資",
+    hero_role_3: "銀行分析",
+    hero_role_4: "商業分析",
+    hero_role_5: "管理培訓生",
+    hero_location_note: "目前在香港，可於畢業後申請 IANG 簽證。",
+    identity_role: "金融學碩士求職候選人",
     identity_item_1: "香港理工大學",
     identity_item_2: "企業融資方向",
-    identity_item_3: "銀行與分析能力",
+    identity_item_3: "投資分析與銀行方向",
     hero_focus_label: "專注方向",
-    hero_focus_text: "企業融資、投資分析、銀行業務及分析類職位。",
+    hero_focus_text: "投資分析、企業融資、銀行、商業分析及管理培訓生職位。",
     contact_me: "聯絡我",
     view_cv: "查看履歷",
     metric_mf_gpa: "金融碩士 GPA",
@@ -291,7 +308,7 @@ const translations = {
     contact_kicker: "聯絡方式",
     contact_heading: "目前正在尋找專業職位機會。",
     contact_text:
-      "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
+      "我目前對投資分析、企業融資分析、銀行分析、商業分析、策略支援、營運及管理培訓生等職位保持開放。",
     contact_note: "歡迎透過以下方式與我聯絡。",
     visa_kicker: "簽證情況",
     visa_note: "簽證情況：本人有資格申請香港 IANG 簽證。",
@@ -300,28 +317,34 @@ const translations = {
     footer_line_3: "2026 LAI Qitai 版權所有。"
   },
   zhHans: {
-    page_title: "Vincent Qitai Lai | 金融与分析个人网站",
+    page_title: "Vincent Qitai Lai | 投资分析、企业融资与银行方向求职网站",
     page_description:
-      "我目前就读香港理工大学企业融资方向金融学硕士，具备银行营运、财务管理教学支持、流程优化、软件测试、投资研究与商业分析等经验。",
+      "香港理工大学金融学硕士（企业融资方向）学生，具备投资分析、企业融资、银行营运、软件测试与商业分析经验，正寻找香港的分析师、Graduate 与 Management Trainee 职位。",
     nav_profile: "个人介绍",
     nav_education: "教育背景",
     nav_exchange: "交流项目",
     nav_experience: "实习经历",
     nav_skills: "专业技能",
     nav_contact: "联系方式",
-    hero_eyebrow: "金融 | 策略 | 分析",
-    hero_line_1: "对金融充满热情。",
-    hero_line_2: "专注于金融与科技的结合。",
-    hero_line_3: "重视分析能力与专业执行。",
+    hero_eyebrow: "求职中 | 香港 | 金融与分析",
+    hero_line_1: "金融学硕士，目标分析师发展路径。",
+    hero_line_2: "专注投资分析、企业融资、银行与商业分析。",
+    hero_line_3: "结合金融训练、Python 能力与科技理解。",
     hero_summary:
-      "我以对金融的兴趣、严谨的分析训练，以及对科技如何提升研究、决策与执行效率的关注，建立自己的专业方向。",
-    hero_status: "目前正在寻找金融、银行及分析相关工作机会",
-    identity_role: "金融学硕士学生",
+      "我具备突出的学术成绩、银行与金融科技实务接触，并持续关注科技如何提升研究、执行与决策效率。",
+    hero_status: "目前正积极寻找香港的分析师、Graduate 及 Management Trainee 工作机会",
+    hero_role_1: "投资分析",
+    hero_role_2: "企业融资",
+    hero_role_3: "银行分析",
+    hero_role_4: "商业分析",
+    hero_role_5: "管理培训生",
+    hero_location_note: "目前在香港，可于毕业后申请 IANG 签证。",
+    identity_role: "金融学硕士求职候选人",
     identity_item_1: "香港理工大学",
     identity_item_2: "企业融资方向",
-    identity_item_3: "银行与分析能力",
+    identity_item_3: "投资分析与银行方向",
     hero_focus_label: "专注方向",
-    hero_focus_text: "企业融资、投资分析、银行业务及分析类职位。",
+    hero_focus_text: "投资分析、企业融资、银行、商业分析及管理培训生职位。",
     contact_me: "联系我",
     view_cv: "查看履历",
     metric_mf_gpa: "金融硕士 GPA",
@@ -430,7 +453,7 @@ const translations = {
     contact_kicker: "联系方式",
     contact_heading: "目前正在寻找专业职位机会。",
     contact_text:
-      "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
+      "我目前对投资分析、企业融资分析、银行分析、商业分析、策略支持、营运及管理培训生等职位保持开放。",
     contact_note: "欢迎通过以下方式与我联系。",
     visa_kicker: "签证情况",
     visa_note: "签证情况：本人有资格申请香港 IANG 签证。",
@@ -444,6 +467,10 @@ const revealNodes = document.querySelectorAll(".reveal");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const langButtons = document.querySelectorAll("[data-set-lang]");
 const siteDescription = document.querySelector("#site-description");
+const openGraphTitle = document.querySelector("#og-title");
+const openGraphDescription = document.querySelector("#og-description");
+const twitterTitle = document.querySelector("#twitter-title");
+const twitterDescription = document.querySelector("#twitter-description");
 const supportedLanguages = ["en", "zhHant", "zhHans"];
 
 const observer = new IntersectionObserver(
@@ -490,6 +517,22 @@ function setLanguage(language) {
 
   if (siteDescription) {
     siteDescription.setAttribute("content", copy.page_description);
+  }
+
+  if (openGraphTitle) {
+    openGraphTitle.setAttribute("content", copy.page_title);
+  }
+
+  if (openGraphDescription) {
+    openGraphDescription.setAttribute("content", copy.page_description);
+  }
+
+  if (twitterTitle) {
+    twitterTitle.setAttribute("content", copy.page_title);
+  }
+
+  if (twitterDescription) {
+    twitterDescription.setAttribute("content", copy.page_description);
   }
 
   window.localStorage.setItem("site-language", nextLanguage);
