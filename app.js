@@ -489,7 +489,7 @@ const feedbackStatusNode = document.querySelector("[data-feedback-status]");
 const feedbackMessageField = document.querySelector("#feedback-message");
 const feedbackPageUrlField = document.querySelector("#feedback-page-url");
 const feedbackSubmitButton = feedbackForm?.querySelector('button[type="submit"]');
-const feedbackEndpoint = "https://formsubmit.co/ajax/lqt-vincent@outlook.com";
+const feedbackEndpoint = "https://formsubmit.co/ajax/18702082714@163.com";
 const supportedLanguages = ["en", "zhHant", "zhHans"];
 let activeLanguage = "en";
 
