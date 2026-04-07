@@ -153,7 +153,7 @@ const translations = {
     contact_text:
       "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
     contact_note: "Please feel free to reach me through the channels below.",
-    feedback_fab: "Career Advice",
+    feedback_fab: "Give Me Advice",
     feedback_title: "Career Development Suggestion Box",
     feedback_intro: "Share a suggestion for my career development. No name is required.",
     feedback_label: "Your career advice",
@@ -305,7 +305,7 @@ const translations = {
     contact_text:
       "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
     contact_note: "歡迎透過以下方式與我聯絡。",
-    feedback_fab: "職涯建議",
+    feedback_fab: "給我建議",
     feedback_title: "職涯發展建議箱",
     feedback_intro: "歡迎提供你對我職涯發展的建議，不需填寫姓名。",
     feedback_label: "你的職涯建議",
@@ -456,7 +456,7 @@ const translations = {
     contact_text:
       "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
     contact_note: "欢迎通过以下方式与我联系。",
-    feedback_fab: "职业建议",
+    feedback_fab: "给我建议",
     feedback_title: "职业发展建议箱",
     feedback_intro: "欢迎提供你对我职业发展的建议，不需填写姓名。",
     feedback_label: "你的职业建议",
