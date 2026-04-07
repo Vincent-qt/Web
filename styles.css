@@ -475,6 +475,10 @@ h3 {
   box-shadow: 0 22px 40px rgba(77, 67, 48, 0.3);
 }
 
+.feedback-fab.is-nudging {
+  animation: feedback-nudge 720ms ease;
+}
+
 .feedback-widget {
   position: fixed;
   inset: 0;
@@ -845,6 +849,30 @@ section {
   }
   to {
     transform: translate3d(-28px, 26px, 0) scale(1.08);
+  }
+}
+
+@keyframes feedback-nudge {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  16% {
+    transform: translateY(-2px) rotate(-2.2deg);
+  }
+  32% {
+    transform: translateY(-1px) rotate(2deg);
+  }
+  48% {
+    transform: translateY(-2px) rotate(-1.7deg);
+  }
+  64% {
+    transform: translateY(-1px) rotate(1.2deg);
+  }
+  80% {
+    transform: translateY(-1px) rotate(-0.7deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
   }
 }
 

@@ -481,6 +481,7 @@ const translatableNodes = document.querySelectorAll("[data-i18n]");
 const translatablePlaceholderNodes = document.querySelectorAll("[data-i18n-placeholder]");
 const langButtons = document.querySelectorAll("[data-set-lang]");
 const siteDescription = document.querySelector("#site-description");
+const footerNode = document.querySelector(".footer");
 const feedbackWidget = document.querySelector("#feedback-widget");
 const feedbackOpenButton = document.querySelector("[data-feedback-open]");
 const feedbackCloseButtons = document.querySelectorAll("[data-feedback-close]");
@@ -492,6 +493,8 @@ const feedbackSubmitButton = feedbackForm?.querySelector('button[type="submit"]'
 const feedbackEndpoint = "https://formsubmit.co/ajax/18702082714@163.com";
 const supportedLanguages = ["en", "zhHant", "zhHans"];
 let activeLanguage = "en";
+let lastFeedbackNudgeAt = 0;
+const feedbackNudgeCooldownMs = 5200;
 
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
@@ -610,8 +613,30 @@ function closeFeedbackWidget() {
   }
 }
 
+function nudgeFeedbackButton() {
+  if (!feedbackOpenButton || feedbackWidget?.classList.contains("is-open")) {
+    return;
+  }
+
+  const now = Date.now();
+  if (now - lastFeedbackNudgeAt < feedbackNudgeCooldownMs) {
+    return;
+  }
+
+  lastFeedbackNudgeAt = now;
+  feedbackOpenButton.classList.remove("is-nudging");
+  // Force reflow so repeated nudges can replay the animation class.
+  void feedbackOpenButton.offsetWidth;
+  feedbackOpenButton.classList.add("is-nudging");
+}
+
 if (feedbackOpenButton) {
   feedbackOpenButton.addEventListener("click", openFeedbackWidget);
+  feedbackOpenButton.addEventListener("animationend", (event) => {
+    if (event.animationName === "feedback-nudge") {
+      feedbackOpenButton.classList.remove("is-nudging");
+    }
+  });
 }
 
 if (feedbackCloseButtons.length) {
@@ -625,6 +650,30 @@ window.addEventListener("keydown", (event) => {
     closeFeedbackWidget();
   }
 });
+
+if (feedbackOpenButton && footerNode && "IntersectionObserver" in window) {
+  let footerInView = false;
+  const footerObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && !footerInView) {
+          nudgeFeedbackButton();
+          footerInView = true;
+          return;
+        }
+
+        if (!entry.isIntersecting) {
+          footerInView = false;
+        }
+      });
+    },
+    {
+      threshold: 0.35
+    }
+  );
+
+  footerObserver.observe(footerNode);
+}
 
 if (feedbackForm) {
   feedbackForm.addEventListener("submit", async (event) => {
