@@ -484,26 +484,26 @@
       aria-controls="feedback-widget"
       aria-expanded="false"
     >
-      <span data-i18n="feedback_fab">Anonymous Suggestion</span>
+      <span data-i18n="feedback_fab">Career Advice</span>
     </button>
 
     <section class="feedback-widget" id="feedback-widget" aria-hidden="true">
       <div class="feedback-backdrop" data-feedback-close></div>
       <div class="feedback-panel" role="dialog" aria-modal="true" aria-labelledby="feedback-title">
-        <p class="section-kicker" id="feedback-title" data-i18n="feedback_title">Anonymous Suggestion Box</p>
+        <p class="section-kicker" id="feedback-title" data-i18n="feedback_title">Career Development Suggestion Box</p>
         <p class="feedback-intro" data-i18n="feedback_intro">
-          Share a quick suggestion for improving this site. No name is required.
+          Share a suggestion for my career development. No name is required.
         </p>
 
         <form id="feedback-form" class="feedback-form" novalidate>
-          <input type="hidden" name="_subject" value="Anonymous suggestion from qitai.ink" />
+          <input type="hidden" name="_subject" value="Anonymous career advice from qitai.ink" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="box" />
           <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
-          <input type="hidden" name="source" value="qitai.ink feedback widget" />
+          <input type="hidden" name="source" value="qitai.ink career advice widget" />
           <input type="hidden" id="feedback-page-url" name="page_url" value="" />
 
-          <label for="feedback-message" data-i18n="feedback_label">Your suggestion</label>
+          <label for="feedback-message" data-i18n="feedback_label">Your career advice</label>
           <textarea
             id="feedback-message"
             name="message"
@@ -511,16 +511,16 @@
             maxlength="1200"
             required
             data-i18n-placeholder="feedback_placeholder"
-            placeholder="Type your suggestion here..."
+            placeholder="Type your career development suggestion..."
           ></textarea>
 
           <p class="feedback-status" data-feedback-status data-i18n="feedback_hint">
-            Your message will be sent directly to my inbox.
+            Your anonymous advice will be sent directly to my inbox.
           </p>
 
           <div class="feedback-actions">
             <button class="btn btn-secondary" type="button" data-feedback-close data-i18n="feedback_cancel">Close</button>
-            <button class="btn btn-primary" type="submit" data-i18n="feedback_submit">Send Suggestion</button>
+            <button class="btn btn-primary" type="submit" data-i18n="feedback_submit">Send Advice</button>
           </div>
         </form>
       </div>
