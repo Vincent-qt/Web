@@ -477,6 +477,55 @@
       <p data-i18n="footer_line_3">2026 LAI Qitai. All rights reserved.</p>
     </footer>
 
+    <button
+      class="feedback-fab"
+      type="button"
+      data-feedback-open
+      aria-controls="feedback-widget"
+      aria-expanded="false"
+    >
+      <span data-i18n="feedback_fab">Anonymous Suggestion</span>
+    </button>
+
+    <section class="feedback-widget" id="feedback-widget" aria-hidden="true">
+      <div class="feedback-backdrop" data-feedback-close></div>
+      <div class="feedback-panel" role="dialog" aria-modal="true" aria-labelledby="feedback-title">
+        <p class="section-kicker" id="feedback-title" data-i18n="feedback_title">Anonymous Suggestion Box</p>
+        <p class="feedback-intro" data-i18n="feedback_intro">
+          Share a quick suggestion for improving this site. No name is required.
+        </p>
+
+        <form id="feedback-form" class="feedback-form" novalidate>
+          <input type="hidden" name="_subject" value="Anonymous suggestion from qitai.ink" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="box" />
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <input type="hidden" name="source" value="qitai.ink feedback widget" />
+          <input type="hidden" id="feedback-page-url" name="page_url" value="" />
+
+          <label for="feedback-message" data-i18n="feedback_label">Your suggestion</label>
+          <textarea
+            id="feedback-message"
+            name="message"
+            rows="5"
+            maxlength="1200"
+            required
+            data-i18n-placeholder="feedback_placeholder"
+            placeholder="Type your suggestion here..."
+          ></textarea>
+
+          <p class="feedback-status" data-feedback-status data-i18n="feedback_hint">
+            Your message will be sent directly to my inbox.
+          </p>
+
+          <div class="feedback-actions">
+            <button class="btn btn-secondary" type="button" data-feedback-close data-i18n="feedback_cancel">Close</button>
+            <button class="btn btn-primary" type="submit" data-i18n="feedback_submit">Send Suggestion</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
     <!-- Cloudflare Web Analytics -->
     <script
       defer

@@ -153,6 +153,18 @@ const translations = {
     contact_text:
       "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
     contact_note: "Please feel free to reach me through the channels below.",
+    feedback_fab: "Anonymous Suggestion",
+    feedback_title: "Anonymous Suggestion Box",
+    feedback_intro: "Share a quick suggestion for improving this site. No name is required.",
+    feedback_label: "Your suggestion",
+    feedback_placeholder: "Type your suggestion here...",
+    feedback_hint: "Your message will be sent directly to my inbox.",
+    feedback_cancel: "Close",
+    feedback_submit: "Send Suggestion",
+    feedback_sending: "Sending...",
+    feedback_success: "Thank you. Your suggestion has been sent.",
+    feedback_error: "Submission failed. Please try again shortly.",
+    feedback_empty: "Please enter your suggestion before submitting.",
     visa_kicker: "Visa Status",
     visa_note: "Visa status: Eligible to apply for Hong Kong IANG visa.",
     footer_line_1: "This is my personal portfolio.",
@@ -293,6 +305,18 @@ const translations = {
     contact_text:
       "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
     contact_note: "歡迎透過以下方式與我聯絡。",
+    feedback_fab: "匿名建議",
+    feedback_title: "匿名建議箱",
+    feedback_intro: "歡迎提供你對網站的建議，不需填寫姓名。",
+    feedback_label: "建議內容",
+    feedback_placeholder: "請輸入你的建議...",
+    feedback_hint: "訊息會匿名寄送到我的信箱。",
+    feedback_cancel: "關閉",
+    feedback_submit: "送出建議",
+    feedback_sending: "正在送出...",
+    feedback_success: "謝謝你，建議已成功送出。",
+    feedback_error: "送出失敗，請稍後再試。",
+    feedback_empty: "請先輸入建議內容。",
     visa_kicker: "簽證情況",
     visa_note: "簽證情況：本人有資格申請香港 IANG 簽證。",
     footer_line_1: "這是我的個人專業網站。",
@@ -432,6 +456,18 @@ const translations = {
     contact_text:
       "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
     contact_note: "欢迎通过以下方式与我联系。",
+    feedback_fab: "匿名建议",
+    feedback_title: "匿名建议箱",
+    feedback_intro: "欢迎提供你对网站的建议，不需填写姓名。",
+    feedback_label: "建议内容",
+    feedback_placeholder: "请输入你的建议...",
+    feedback_hint: "消息会匿名发送到我的邮箱。",
+    feedback_cancel: "关闭",
+    feedback_submit: "发送建议",
+    feedback_sending: "正在发送...",
+    feedback_success: "谢谢你，建议已成功发送。",
+    feedback_error: "发送失败，请稍后再试。",
+    feedback_empty: "请先输入建议内容。",
     visa_kicker: "签证情况",
     visa_note: "签证情况：本人有资格申请香港 IANG 签证。",
     footer_line_1: "这是我的个人专业网站。",
@@ -442,38 +478,76 @@ const translations = {
 
 const revealNodes = document.querySelectorAll(".reveal");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
+const translatablePlaceholderNodes = document.querySelectorAll("[data-i18n-placeholder]");
 const langButtons = document.querySelectorAll("[data-set-lang]");
 const siteDescription = document.querySelector("#site-description");
+const feedbackWidget = document.querySelector("#feedback-widget");
+const feedbackOpenButton = document.querySelector("[data-feedback-open]");
+const feedbackCloseButtons = document.querySelectorAll("[data-feedback-close]");
+const feedbackForm = document.querySelector("#feedback-form");
+const feedbackStatusNode = document.querySelector("[data-feedback-status]");
+const feedbackMessageField = document.querySelector("#feedback-message");
+const feedbackPageUrlField = document.querySelector("#feedback-page-url");
+const feedbackSubmitButton = feedbackForm?.querySelector('button[type="submit"]');
+const feedbackEndpoint = "https://formsubmit.co/ajax/lqt-vincent@outlook.com";
 const supportedLanguages = ["en", "zhHant", "zhHans"];
+let activeLanguage = "en";
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  },
-  {
-    threshold: 0.16,
-    rootMargin: "0px 0px -4% 0px"
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.16,
+      rootMargin: "0px 0px -4% 0px"
+    }
+  );
+
+  revealNodes.forEach((node, index) => {
+    node.style.transitionDelay = `${Math.min(index * 70, 320)}ms`;
+    observer.observe(node);
+  });
+} else {
+  revealNodes.forEach((node) => node.classList.add("visible"));
+}
+
+function getActiveCopy() {
+  return translations[activeLanguage] || translations.en;
+}
+
+function setFeedbackStatus(copyKey, isError = false, isSuccess = false) {
+  if (!feedbackStatusNode) {
+    return;
   }
-);
 
-revealNodes.forEach((node, index) => {
-  node.style.transitionDelay = `${Math.min(index * 70, 320)}ms`;
-  observer.observe(node);
-});
+  const copy = getActiveCopy();
+  feedbackStatusNode.textContent = copy[copyKey] || translations.en[copyKey] || "";
+  feedbackStatusNode.classList.toggle("is-error", isError);
+  feedbackStatusNode.classList.toggle("is-success", isSuccess);
+}
 
 function setLanguage(language) {
   const nextLanguage = supportedLanguages.includes(language) ? language : "en";
   const copy = translations[nextLanguage];
+  activeLanguage = nextLanguage;
 
   translatableNodes.forEach((node) => {
     const key = node.dataset.i18n;
     if (copy[key]) {
       node.textContent = copy[key];
+    }
+  });
+
+  translatablePlaceholderNodes.forEach((node) => {
+    const key = node.dataset.i18nPlaceholder;
+    if (copy[key]) {
+      node.setAttribute("placeholder", copy[key]);
     }
   });
 
@@ -505,5 +579,101 @@ if (langButtons.length) {
     button.addEventListener("click", () => {
       setLanguage(button.dataset.setLang);
     });
+  });
+}
+
+function openFeedbackWidget() {
+  if (!feedbackWidget) {
+    return;
+  }
+
+  feedbackWidget.classList.add("is-open");
+  feedbackWidget.setAttribute("aria-hidden", "false");
+  if (feedbackOpenButton) {
+    feedbackOpenButton.setAttribute("aria-expanded", "true");
+  }
+  if (feedbackMessageField) {
+    feedbackMessageField.focus();
+  }
+}
+
+function closeFeedbackWidget() {
+  if (!feedbackWidget) {
+    return;
+  }
+
+  feedbackWidget.classList.remove("is-open");
+  feedbackWidget.setAttribute("aria-hidden", "true");
+  if (feedbackOpenButton) {
+    feedbackOpenButton.setAttribute("aria-expanded", "false");
+    feedbackOpenButton.focus();
+  }
+}
+
+if (feedbackOpenButton) {
+  feedbackOpenButton.addEventListener("click", openFeedbackWidget);
+}
+
+if (feedbackCloseButtons.length) {
+  feedbackCloseButtons.forEach((button) => {
+    button.addEventListener("click", closeFeedbackWidget);
+  });
+}
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && feedbackWidget?.classList.contains("is-open")) {
+    closeFeedbackWidget();
+  }
+});
+
+if (feedbackForm) {
+  feedbackForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    if (!feedbackMessageField) {
+      return;
+    }
+
+    const message = feedbackMessageField.value.trim();
+    if (!message) {
+      setFeedbackStatus("feedback_empty", true);
+      feedbackMessageField.focus();
+      return;
+    }
+
+    if (feedbackPageUrlField) {
+      feedbackPageUrlField.value = window.location.href;
+    }
+
+    const payload = new FormData(feedbackForm);
+    payload.set("message", message);
+
+    if (feedbackSubmitButton) {
+      feedbackSubmitButton.setAttribute("disabled", "true");
+    }
+    setFeedbackStatus("feedback_sending");
+
+    try {
+      const response = await fetch(feedbackEndpoint, {
+        method: "POST",
+        headers: {
+          Accept: "application/json"
+        },
+        body: payload
+      });
+
+      if (!response.ok) {
+        throw new Error("Suggestion request failed");
+      }
+
+      feedbackForm.reset();
+      setFeedbackStatus("feedback_success", false, true);
+    } catch {
+      setFeedbackStatus("feedback_error", true);
+    } finally {
+      if (feedbackSubmitButton) {
+        feedbackSubmitButton.removeAttribute("disabled");
+      }
+    }
   });
 }
