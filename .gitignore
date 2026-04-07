@@ -3,3 +3,5 @@
 .longbridge/
 Library/
 __pycache__/
+.env
+.env.*
