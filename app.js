@@ -25,7 +25,7 @@ const translations = {
       "Corporate finance, investment analysis, banking, accounting, audit, consulting, risk management, and analyst-track roles.",
     contact_me: "Contact Me",
     view_cv: "View CV",
-    metric_mf_gpa: "Master of Finance GPA",
+    metric_mf_gpa: "GPA for Award (With Distinction)",
     metric_ba_gpa: "Bachelor GPA",
     metric_ranked: "Ranked 1st",
     metric_scholarship: "PolyU Asian Capital Scholarship",
@@ -33,7 +33,7 @@ const translations = {
     profile_heading:
       "I offer a well-rounded profile across finance, valuation, investment analysis, and technology-driven problem solving.",
     profile_p1:
-      "I am currently pursuing a Master of Finance in Corporate Finance at The Hong Kong Polytechnic University, where I hold a GPA of 4.0 out of 4.3 and was awarded the Asian Capital Scholarship as the top-ranked student in the programme. I also hold a Bachelor of Applied Economics from the City University of Macau, where I graduated with a GPA of 3.92 out of 4.0 and received multiple academic honours and scholarships.",
+      "I am currently pursuing a Master of Finance in Corporate Finance at The Hong Kong Polytechnic University, where my GPA for Award is 4.03 (With Distinction), and I was awarded the Asian Capital Scholarship as the top-ranked student in the programme. I also hold a Bachelor of Applied Economics from the City University of Macau, where I graduated with a GPA of 3.92 out of 4.0 and received multiple academic honours and scholarships.",
     profile_p2:
       "I have built a strong foundation in corporate valuation, financial accounting, and investment analysis, with hands-on capability in DCF valuation, comparable company analysis, precedent transactions, three-statement modelling, earnings-quality review, capital structure analysis, WACC estimation, sensitivity analysis, and financial statement interpretation.",
     profile_p3:
@@ -56,8 +56,9 @@ const translations = {
     education_meta_1: "09/2025 - 06/2026 | Hong Kong",
     education_school_1: "The Hong Kong Polytechnic University",
     education_lead_1: "Master of Finance (Corporate Finance)",
+    education_gpa_1: "GPA for Award: 4.03 | With Distinction",
     education_text_1:
-      "I was awarded the Asian Capital Scholarship and ranked first among the Master of Finance cohort for the 2025-2026 academic year.",
+      "I was awarded the Asian Capital Scholarship and ranked first among the Master of Finance cohort for the 2025-2026 academic year, with GPA for Award: 4.03 (With Distinction).",
     education_meta_2: "09/2021 - 06/2025 | Macau",
     education_school_2: "City University of Macau",
     education_lead_2: "Bachelor of Applied Economics, Faculty of Finance",
@@ -197,14 +198,14 @@ const translations = {
     hero_focus_text: "企業融資、投資分析、銀行、會計、審計、諮詢、風險管理及分析類職位。",
     contact_me: "聯絡我",
     view_cv: "查看履歷",
-    metric_mf_gpa: "金融碩士 GPA",
+    metric_mf_gpa: "獎項計算 GPA（優異）",
     metric_ba_gpa: "本科 GPA",
     metric_ranked: "排名第 1",
     metric_scholarship: "PolyU Asian Capital Scholarship",
     profile_kicker: "個人介紹",
     profile_heading: "我具備涵蓋金融、估值、投資分析與科技驅動問題解決能力的完整專業組合。",
     profile_p1:
-      "我目前於香港理工大學修讀金融學碩士（企業融資方向），目前 GPA 為 4.0/4.3，並以課程總排名第一獲得 Asian Capital Scholarship。我亦持有澳門城市大學應用經濟學學士學位，本科 GPA 為 3.92/4.0，並曾獲多項學術榮譽與獎學金。",
+      "我目前於香港理工大學修讀金融學碩士（企業融資方向），獎項計算 GPA 為 4.03（優異），並以課程總排名第一獲得 Asian Capital Scholarship。我亦持有澳門城市大學應用經濟學學士學位，本科 GPA 為 3.92/4.0，並曾獲多項學術榮譽與獎學金。",
     profile_p2:
       "在專業能力方面，我具備企業估值、財務會計及投資分析的扎實基礎，熟悉 DCF 估值、可比公司分析、可比交易分析、三表模型、盈餘品質分析、資本結構分析、WACC 估算、敏感度分析，以及財務報表解讀。",
     profile_p3:
@@ -223,8 +224,9 @@ const translations = {
     education_meta_1: "09/2025 - 06/2026 | 香港",
     education_school_1: "香港理工大學",
     education_lead_1: "金融學碩士（企業融資方向）",
+    education_gpa_1: "獎項計算 GPA：4.03 | 優異",
     education_text_1:
-      "於 2025-2026 學年獲頒 Asian Capital Scholarship，並於金融學碩士課程中排名第一。",
+      "於 2025-2026 學年獲頒 Asian Capital Scholarship，並於金融學碩士課程中排名第一；獎項計算 GPA 為 4.03（優異）。",
     education_meta_2: "09/2021 - 06/2025 | 澳門",
     education_school_2: "澳門城市大學",
     education_lead_2: "應用經濟學學士，金融學院",
@@ -348,14 +350,14 @@ const translations = {
     hero_focus_text: "企业融资、投资分析、银行、会计、审计、咨询、风险管理及分析类职位。",
     contact_me: "联系我",
     view_cv: "查看履历",
-    metric_mf_gpa: "金融硕士 GPA",
+    metric_mf_gpa: "奖项计算 GPA（优异）",
     metric_ba_gpa: "本科 GPA",
     metric_ranked: "排名第 1",
     metric_scholarship: "PolyU Asian Capital Scholarship",
     profile_kicker: "个人介绍",
     profile_heading: "我具备涵盖金融、估值、投资分析与科技驱动问题解决能力的完整专业组合。",
     profile_p1:
-      "我目前于香港理工大学就读金融学硕士（企业融资方向），目前 GPA 为 4.0/4.3，并以课程总排名第一获得 Asian Capital Scholarship。我亦持有澳门城市大学应用经济学学士学位，本科 GPA 为 3.92/4.0，并曾获多项学术荣誉与奖学金。",
+      "我目前于香港理工大学就读金融学硕士（企业融资方向），奖项计算 GPA 为 4.03（优异），并以课程总排名第一获得 Asian Capital Scholarship。我亦持有澳门城市大学应用经济学学士学位，本科 GPA 为 3.92/4.0，并曾获多项学术荣誉与奖学金。",
     profile_p2:
       "在专业能力方面，我具备企业估值、财务会计及投资分析的扎实基础，熟悉 DCF 估值、可比公司分析、可比交易分析、三表模型、盈余质量分析、资本结构分析、WACC 估算、敏感度分析，以及财务报表解读。",
     profile_p3:
@@ -374,8 +376,9 @@ const translations = {
     education_meta_1: "09/2025 - 06/2026 | 香港",
     education_school_1: "香港理工大学",
     education_lead_1: "金融学硕士（企业融资方向）",
+    education_gpa_1: "奖项计算 GPA：4.03 | 优异",
     education_text_1:
-      "于 2025-2026 学年获颁 Asian Capital Scholarship，并于金融学硕士课程中排名第一。",
+      "于 2025-2026 学年获颁 Asian Capital Scholarship，并于金融学硕士课程中排名第一；奖项计算 GPA 为 4.03（优异）。",
     education_meta_2: "09/2021 - 06/2025 | 澳门",
     education_school_2: "澳门城市大学",
     education_lead_2: "应用经济学学士，金融学院",
