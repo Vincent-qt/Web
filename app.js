@@ -1,159 +1,170 @@
 const translations = {
   en: {
-    page_title: "Vincent Qitai Lai | Finance and Analytics Portfolio",
+    page_title: "Vincent Qitai Lai | Finance, Investment Products and Analytics",
     page_description:
-      "I am a Master of Finance student with experience across banking operations, financial management teaching support, workflow optimization, software QA, investment research, and business analytics.",
+      "Vincent Qitai Lai is a Master of Finance graduate with distinction, an investment team intern at ZA Bank, and a finance professional focused on investment products, valuation, analytics, and technology-enabled execution.",
+    skip_link: "Skip to main content",
+    menu: "Menu",
     nav_profile: "Profile",
-    nav_education: "Education",
-    nav_exchange: "Exchange",
     nav_experience: "Experience",
+    nav_education: "Education",
     nav_skills: "Skills",
     nav_contact: "Contact",
-    hero_eyebrow: "Finance | Strategy | Analytics",
-    hero_line_1: "Passionate about finance.",
-    hero_line_2: "Focused on the intersection of finance and technology.",
-    hero_line_3: "Committed to analytical thinking and professional execution.",
+    hero_status: "Seeking full-time opportunities in Hong Kong",
+    hero_eyebrow: "Finance | Investment Products | Analytics",
+    hero_title: "Finance, investment products, and technology-enabled execution.",
     hero_summary:
-      "I combine financial curiosity with analytical discipline and a strong interest in how technology can improve research, decision-making, and execution.",
-    hero_status: "Currently seeking roles in finance, banking, and analyst-track functions",
-    identity_role: "Master of Finance Student",
-    identity_item_1: "The Hong Kong Polytechnic University",
-    identity_item_2: "Corporate Finance",
-    identity_item_3: "Banking and Analytics",
-    hero_focus_label: "Focus",
-    hero_focus_text:
-      "Corporate finance, investment analysis, banking, accounting, audit, consulting, risk management, and analyst-track roles.",
+      "I combine corporate-finance training, investment-product experience, and technology-enabled execution to turn complex market and business questions into clear, practical outcomes.",
     contact_me: "Contact Me",
     view_cv: "View CV",
-    metric_mf_gpa: "GPA for Award (With Distinction)",
-    metric_ba_gpa: "Bachelor GPA",
-    metric_ranked: "Ranked 1st",
-    metric_scholarship: "PolyU Asian Capital Scholarship",
+    snapshot_label: "Professional Snapshot",
+    snapshot_role: "Master of Finance Graduate",
+    snapshot_current_label: "Current",
+    snapshot_current: "Investment Team Intern, ZA Bank",
+    snapshot_training_label: "Training",
+    snapshot_training: "Corporate Finance and Applied Economics",
+    snapshot_focus_label: "Focus",
+    snapshot_focus: "Investment products, valuation, analytics, and fintech",
+    proof_gpa: "GPA for Award",
+    proof_distinction_value: "With Distinction",
+    proof_distinction: "Master of Finance",
+    proof_rank_value: "Graduated 1st",
+    proof_rank: "Master of Finance programme",
+    proof_hksi: "Licensing examination passed",
     profile_kicker: "Professional Profile",
     profile_heading:
-      "I offer a well-rounded profile across finance, valuation, investment analysis, and technology-driven problem solving.",
+      "A finance graduate with investment-product judgement, valuation discipline, and delivery capability.",
     profile_p1:
-      "I am currently pursuing a Master of Finance in Corporate Finance at The Hong Kong Polytechnic University, where my GPA for Award is 4.03 (With Distinction), and I was awarded the Asian Capital Scholarship as the top-ranked student in the programme. I also hold a Bachelor of Applied Economics from the City University of Macau, where I graduated with a GPA of 3.92 out of 4.0 and received multiple academic honours and scholarships.",
+      "I graduated with distinction from the Master of Finance (Corporate Finance) programme at The Hong Kong Polytechnic University, achieving a GPA for Award of 4.03/4.30 and ranking first in the programme. My academic foundation is reinforced by a Bachelor of Applied Economics with a GPA of 3.92/4.00 and multiple merit-based scholarships.",
     profile_p2:
-      "I have built a strong foundation in corporate valuation, financial accounting, and investment analysis, with hands-on capability in DCF valuation, comparable company analysis, precedent transactions, three-statement modelling, earnings-quality review, capital structure analysis, WACC estimation, sensitivity analysis, and financial statement interpretation.",
+      "My finance toolkit spans corporate valuation, financial accounting, investment analysis, DCF, comparable-company and precedent-transaction analysis, three-statement modelling, earnings-quality review, capital-structure analysis, WACC estimation, sensitivity analysis, and financial-statement interpretation.",
     profile_p3:
-      "On the technical side, I work with Python, Stata, EViews, Power BI, Tableau, Bloomberg, and Wind, and I am especially interested in the intersection of finance and technology. I also use AI-assisted coding workflows to prototype factor-based quantitative trading ideas for screening, backtesting, portfolio construction, and risk management. Beyond academics, I have actively traded Hong Kong and U.S. equities and have practical exposure to stocks, options, futures, and portfolio strategy, supported by disciplined execution and risk control.",
-    capability_kicker: "What I Can Do",
-    capability_title_1: "Financial Analysis",
+      "At ZA Bank, I apply this analytical foundation to investment-product requirements, brokerage research, investor content, Figma prototyping, and cross-functional delivery. I am especially interested in roles where finance, product thinking, data, and technology come together.",
+    capability_title_1: "Investment Product Research",
     capability_text_1:
-      "I interpret financial information, support reporting, and link business questions with analytical evidence and finance logic.",
-    capability_title_2: "Process Improvement",
+      "Brokerage benchmarking, ETF comparison, market-content evaluation, and investor-focused analysis.",
+    capability_title_2: "Corporate Finance and Valuation",
     capability_text_2:
-      "I review workflows, identify operational gaps, and support more efficient processes with structured analysis and documentation.",
-    capability_title_3: "Business Coordination",
+      "Structured valuation, financial-statement analysis, modelling, and evidence-based judgement.",
+    capability_title_3: "Product Strategy and Prototyping",
     capability_text_3:
-      "I work across academic, technical, and banking environments with clear communication, professionalism, and dependable follow-through.",
-    capability_title_4: "Investment and IT Readiness",
+      "PRDs, business rules, Figma prototypes, product benchmarking, and AI-product exploration.",
+    capability_title_4: "Data, Testing and Delivery",
     capability_text_4:
-      "I combine market-tool familiarity, research discipline, testing logic, and Python-based analytical skills to support finance-technology environments.",
-    education_kicker: "Education",
-    education_heading: "Academic performance with top-tier consistency.",
+      "Analytical tools, workflow testing, defect reporting, process improvement, and stakeholder coordination.",
+    experience_kicker: "Professional Experience",
+    experience_heading:
+      "Experience across digital wealth management, finance education, banking systems, and operations.",
+    za_meta: "06/2026 - Present | Hong Kong",
+    za_title: "Investment Team Intern",
+    za_company: "ZA Bank Limited | Wealth Management Department",
+    za_tag: "Digital wealth and investment products",
+    za_summary:
+      "Supporting the design, research, content, and delivery of investment-related features by connecting customer needs, market intelligence, product logic, and cross-functional execution.",
+    za_stream_title_1: "Requirements and Prototyping",
+    za_stream_text_1:
+      "Drafted PRDs and Figma prototypes for stock search, market labels, quote displays, OCR address-proof review, and stock-transfer workflows.",
+    za_stream_title_2: "Brokerage and Product Research",
+    za_stream_text_2:
+      "Benchmarked Hong Kong and U.S. platforms across ETFs, IPO services, pricing, fixed income, market news, AI tools, and transfer processes.",
+    za_stream_title_3: "Investment Content",
+    za_stream_text_3:
+      "Produced customer-facing feed content and ETF comparisons covering holdings, performance, fees, risk, and peer positioning.",
+    za_stream_title_4: "Cross-functional Delivery",
+    za_stream_text_4:
+      "Supported requirement reviews with business, technology, and operations teams; refined rules, prototypes, and implementation details.",
+    za_stream_title_5: "AI Product Exploration",
+    za_stream_text_5:
+      "Proposed AI market-intelligence and dashboard-assistant concepts for synthesizing feedback, competitor moves, market trends, and business metrics.",
+    ta_meta: "09/2023 - 06/2024 | Macau",
+    ta_title: "Teaching Assistant of Financial Management",
+    ta_company: "Faculty of Finance, City University of Macau",
+    ta_tag: "Finance instruction",
+    ta_bullet_1:
+      "Graded assignments, quizzes, and examinations with consistent academic standards.",
+    ta_bullet_2:
+      "Delivered review and Q&A support on time value of money, financial ratios, and budgeting.",
+    ta_bullet_3:
+      "Organized student feedback to support course-content and teaching-method improvements.",
+    cs_meta: "07/2023 - 08/2023 | Foshan",
+    cs_title: "Junior Engineer",
+    cs_company: "Shanghai Chinasoft-International Huateng Software Systems Co., Ltd.",
+    cs_tag: "Banking systems QA",
+    cs_bullet_1:
+      "Analysed mortgage approval workflows across application, document review, credit evaluation, and approval.",
+    cs_bullet_2:
+      "Designed and executed normal, exception, and boundary test scenarios against expected outcomes.",
+    cs_bullet_3:
+      "Logged defects with reproduction steps, impact assessment, and severity to improve issue traceability.",
+    cgb_meta: "05/2022 - 08/2022 | Guangzhou",
+    cgb_title: "Experience Management Intern",
+    cgb_company: "China Guangfa Bank | Head Office Credit Card Center",
+    cgb_tag: "Operations and improvement",
+    cgb_bullet_1:
+      "Supported project reporting through data collection, analysis, consolidation, and stakeholder communication.",
+    cgb_bullet_2:
+      "Contributed to workflow and operational improvement initiatives using JMP-supported analysis.",
+    cgb_bullet_3:
+      "Coordinated innovation-incubation and Lean Six Sigma training activities, materials, and follow-up.",
+    education_kicker: "Education and Recognition",
+    education_heading:
+      "Academic performance defined by consistency, distinction, and merit-based recognition.",
     education_meta_1: "09/2025 - 06/2026 | Hong Kong",
     education_school_1: "The Hong Kong Polytechnic University",
-    education_lead_1: "Master of Finance (Corporate Finance)",
-    education_gpa_1: "GPA for Award: 4.03 | With Distinction",
-    education_text_1:
-      "I was awarded the Asian Capital Scholarship and ranked first among the Master of Finance cohort for the 2025-2026 academic year, with GPA for Award: 4.03 (With Distinction).",
+    education_degree_1: "Master of Finance (Corporate Finance)",
+    education_result_1: "GPA for Award | Graduated With Distinction | Ranked 1st",
+    education_award_1: "MoF Merit-based Scholarship 2025/26",
+    education_award_2: "Asian Capital Scholarship 2025/26",
     education_meta_2: "09/2021 - 06/2025 | Macau",
     education_school_2: "City University of Macau",
-    education_lead_2: "Bachelor of Applied Economics, Faculty of Finance",
-    education_text_2:
-      "I was recognized on the Dean's List for three consecutive academic years, with additional scholarship awards from Luso International Banking Ltd. and CHEUNG Kovu Scholarship.",
-    exchange_kicker: "Academic Exchange",
-    exchange_heading:
-      "International academic exposure that strengthened my analytical and business perspective.",
-    exchange_meta_1: "07/2024 - 08/2024 | Cambridge, United Kingdom",
-    exchange_school_1: "University of Cambridge",
-    exchange_lead_1: "Summer School in Business Analysis",
+    education_degree_2: "Bachelor of Applied Economics | Faculty of Finance",
+    education_result_2: "Bachelor GPA",
+    education_award_3: "Dean's List, Faculty of Finance | 2021/22 - 2023/24",
+    education_award_4:
+      "Luso International Banking Ltd. Scholarship | 2021/22 and 2022/23",
+    education_award_5:
+      "CHEUNG Kovu Scholarship 2023/24 | Ranked 1st among academic performers",
+    exchange_kicker: "Additional International Exposure",
+    exchange_intro:
+      "Short-term academic experiences that broadened my approach to business analysis and cross-cultural collaboration.",
+    exchange_title_1: "University of Cambridge | Business Analysis",
     exchange_text_1:
-      "Completed intensive study in business analysis with emphasis on problem structuring, business-model evaluation, market and industry assessment, data-informed decision-making, and case-based analysis. The programme strengthened my ability to translate business questions into analytical frameworks and communicate practical recommendations in an international academic setting.",
-    exchange_meta_2: "2023 | Hong Kong",
-    exchange_school_2: "The Chinese University of Hong Kong",
-    exchange_lead_2: "Academic Exchange Programme",
+      "Applied problem structuring, business-model assessment, market analysis, and case-based reasoning to translate complex questions into actionable recommendations.",
+    exchange_title_2: "The Chinese University of Hong Kong | Academic Exchange",
     exchange_text_2:
-      "Participated in a short-term academic exchange that broadened my exposure to Hong Kong's university environment, interdisciplinary learning culture, and regional business context. The experience strengthened cross-cultural communication, collaborative learning, and adaptability in a high-performing academic setting.",
-    experience_kicker: "Internship Experience",
-    experience_heading: "Experience that shows domain range and execution depth.",
-    exp_meta_1: "09/2023 - 06/2024 | Macau",
-    exp_title_1: "Teaching Assistant of Financial Management",
-    exp_company_1: "Faculty of Finance, City University of Macau",
-    exp_tag_1: "Instructional support and academic quality",
-    exp_text_1:
-      "Supported course delivery across grading, exam review, and student feedback administration for financial management modules. The role required consistent academic judgement, careful marking standards, and the ability to explain core concepts such as time value of money, capital budgeting, and ratio analysis in a clear and structured manner.",
-    exp_bullet_1_1:
-      "Maintained grading consistency and academic quality control across assignments and exam scripts.",
-    exp_bullet_1_2:
-      "Delivered clear concept explanations during Q&A support and tutorial interactions.",
-    exp_bullet_1_3:
-      "Strengthened communication, presentation, and instructional support capability in a finance context.",
-    exp_meta_2: "07/2023 - 08/2023 | Foshan",
-    exp_title_2: "Junior Engineer",
-    exp_company_2:
-      "Shanghai Chinasoft-International Huateng (Shanghai) Software Systems Co., Ltd.",
-    exp_tag_2: "Banking workflow testing and defect control",
-    exp_text_2:
-      "Participated in mortgage approval system testing with direct exposure to loan application workflows, document verification logic, credit assessment steps, and approval-stage controls. Responsibilities covered test planning, execution of business scenarios, defect identification, and issue documentation for a banking environment with process accuracy requirements.",
-    exp_bullet_2_1:
-      "Converted business requirements and operating processes into structured functional test scenarios.",
-    exp_bullet_2_2:
-      "Covered normal flows, exception cases, and boundary conditions to improve testing completeness.",
-    exp_bullet_2_3:
-      "Produced disciplined defect reports that improved issue traceability and developer follow-up.",
-    exp_meta_3: "05/2022 - 08/2022 | Guangzhou",
-    exp_title_3: "Intern of Experience Management Department",
-    exp_company_3: "China Guangfa Bank, Head Office Credit Card Center",
-    exp_tag_3: "Operational analysis and project coordination",
-    exp_text_3:
-      "Supported project execution, operational reporting, and workflow improvement initiatives within the Credit Card Center of a major commercial bank. Work involved process analysis, campaign support, data consolidation, training follow-up, and coordination for internal innovation and service-improvement activities.",
-    exp_bullet_3_1:
-      "Contributed structured analysis to process optimization and operational improvement efforts.",
-    exp_bullet_3_2:
-      "Coordinated cross-functional tasks related to training delivery, reporting, and project execution.",
-    exp_bullet_3_3:
-      "Applied JMP-based analysis and supported internal reporting with organized data preparation.",
-    exp_meta_4: "01/2022 - 02/2022 | Guangzhou",
-    exp_title_4: "Marketing Intern",
-    exp_company_4: "China Financial Certification Authority (CFCA)",
-    exp_tag_4: "Fintech product support and client communication",
-    exp_text_4:
-      "Supported business discussions with banking clients on digital certificate management systems and trust-service certificate solutions in a regulated fintech environment. The role provided exposure to product communication, client-facing coordination, and financial-institution service needs.",
-    exp_bullet_4_1:
-      "Supported client-facing communication and meeting preparation for financial institution accounts.",
-    exp_bullet_4_2:
-      "Built familiarity with digital trust infrastructure, certification products, and fintech service workflows.",
-    exp_bullet_4_3:
-      "Strengthened professional communication, commercial awareness, and understanding of regulated client needs.",
+      "Strengthened regional business awareness, interdisciplinary learning, cross-cultural communication, and adaptability in a high-performing academic environment.",
     skills_kicker: "Professional Skills",
     skills_heading:
-      "A broader professional toolkit across finance, analytics and business execution.",
-    skill_title_1: "Finance and Corporate Analysis",
+      "A practical toolkit spanning finance, investment products, product delivery, data, and markets.",
+    skill_title_1: "Finance and Valuation",
     skill_text_1:
-      "I work with corporate-finance concepts, financial management fundamentals, economic analysis, financial ratio interpretation, budgeting logic, and business analysis in structured financial environments.",
-    skill_title_2: "Academic and Quantitative Strength",
+      "Corporate valuation, financial accounting, investment analysis, DCF, comparable companies, precedent transactions, three-statement modelling, earnings quality, capital structure, WACC, sensitivity analysis, and financial-statement interpretation.",
+    skill_title_2: "Investment Products and Markets",
     skill_text_2:
-      "I bring a strong academic foundation, top-ranking performance, and quantitative discipline supported by Excel, Power BI, Tableau, Stata, Python, and EViews for structured analysis and decision support.",
-    skill_title_3: "Investment and Market Readiness",
+      "Brokerage benchmarking, ETF comparison, IPO and fixed-income product research, market news, transfer workflows, investor education, and competitor analysis.",
+    skill_title_3: "Product and Delivery",
     skill_text_3:
-      "I am comfortable with market observation, investment-oriented research support, and information gathering using Bloomberg Terminal, Wind, and disciplined analytical reasoning.",
-    skill_title_4: "IT and Analytical Tools",
+      "PRDs, Figma prototyping, requirement reviews, business-rule refinement, stakeholder coordination, product benchmarking, and AI-product ideation.",
+    skill_title_4: "Data and Technology",
     skill_text_4:
-      "I use Python and analytical software to support data processing, workflow understanding, reporting, and problem solving across finance and business contexts.",
-    skill_title_5: "Operations and Process Execution",
+      "Python, Power BI, Tableau, Stata, EViews, JMP, Microsoft Office, workflow testing, defect management, and AI-assisted prototyping.",
+    skill_title_5: "Market Platforms",
     skill_text_5:
-      "I am experienced in workflow analysis, documentation, testing discipline, defect logging, process optimization support, and coordination across structured project environments.",
-    skill_title_6: "Communication and Professional Readiness",
+      "Practical experience with Bloomberg Terminal and Wind for financial information, market monitoring, and research support.",
+    skill_title_6: "Languages and Qualification",
     skill_text_6:
-      "I communicate in Cantonese, Mandarin, and English, and I have passed HKSI Licensing Examination Paper 1, which strengthens my readiness for professional finance and market-facing roles.",
+      "Cantonese native, Mandarin native, English fluent, and HKSI Licensing Examination Paper 1 passed.",
     contact_kicker: "Contact",
-    contact_heading: "I am actively seeking professional opportunities.",
+    contact_heading: "Seeking the next opportunity to contribute and grow.",
     contact_text:
-      "I am open to roles in finance, investment analysis, banking, strategy support, business analysis, operations, and management trainee programs.",
-    contact_note: "Please feel free to reach me through the channels below.",
+      "I am open to full-time roles across investment products, wealth management, corporate finance, banking, accounting, audit, consulting, risk management, business analysis, and related analyst-track functions.",
+    visa_label: "Visa Status",
+    visa_note: "Eligible to apply for the Hong Kong IANG visa.",
+    contact_email: "Email",
+    contact_phone: "Phone",
+    footer_focus: "Finance | Investment Products | Analytics",
+    footer_copyright: "Copyright 2026 LAI Qitai. All rights reserved.",
+    copy_success: "Copied to clipboard",
     feedback_fab: "Give Me Advice",
     feedback_title: "Career Development Suggestion Box",
     feedback_intro: "Share a suggestion for my career development. No name is required.",
@@ -165,151 +176,155 @@ const translations = {
     feedback_sending: "Sending...",
     feedback_success: "Thank you. Your career advice has been sent.",
     feedback_error: "Submission failed. Please try again shortly.",
-    feedback_empty: "Please enter your advice before submitting.",
-    visa_kicker: "Visa Status",
-    visa_note: "Visa status: Eligible to apply for Hong Kong IANG visa.",
-    footer_line_1: "This is my personal portfolio.",
-    footer_line_2:
-      "I use this site to share my profile, experience, and professional focus.",
-    footer_line_3: "2026 LAI Qitai. All rights reserved."
+    feedback_empty: "Please enter your advice before submitting."
   },
   zhHant: {
-    page_title: "Vincent Qitai Lai | 金融與分析個人網站",
+    page_title: "Vincent Qitai Lai | 金融、投資產品與分析",
     page_description:
-      "我目前修讀香港理工大學企業融資方向金融學碩士，具備銀行營運、財務管理教學支援、流程優化、軟件測試、投資研究與商業分析等經驗。",
+      "Vincent Qitai Lai 是以優異成績畢業的金融學碩士，現於眾安銀行投資團隊實習，專注投資產品、企業估值、數據分析與科技驅動執行。",
+    skip_link: "跳至主要內容",
+    menu: "選單",
     nav_profile: "個人介紹",
+    nav_experience: "專業經歷",
     nav_education: "教育背景",
-    nav_exchange: "交流項目",
-    nav_experience: "實習經歷",
     nav_skills: "專業技能",
     nav_contact: "聯絡方式",
-    hero_eyebrow: "金融 | 策略 | 分析",
-    hero_line_1: "對金融充滿熱情。",
-    hero_line_2: "專注於金融與科技的結合。",
-    hero_line_3: "重視分析能力與專業執行。",
+    hero_status: "正在香港尋找全職工作機會",
+    hero_eyebrow: "金融 | 投資產品 | 分析",
+    hero_title: "金融、投資產品與科技驅動執行。",
     hero_summary:
-      "我以對金融的興趣、嚴謹的分析訓練，以及對科技如何提升研究、決策與執行效率的關注，建立自己的專業方向。",
-    hero_status: "目前正在尋找金融、銀行及分析相關工作機會",
-    identity_role: "金融學碩士學生",
-    identity_item_1: "香港理工大學",
-    identity_item_2: "企業融資方向",
-    identity_item_3: "銀行與分析能力",
-    hero_focus_label: "專注方向",
-    hero_focus_text: "企業融資、投資分析、銀行、會計、審計、諮詢、風險管理及分析類職位。",
+      "我結合企業融資訓練、投資產品經驗與科技驅動的執行能力，把複雜的市場及業務問題轉化為清晰、可落地的成果。",
     contact_me: "聯絡我",
     view_cv: "查看履歷",
-    metric_mf_gpa: "獎項計算 GPA（優異）",
-    metric_ba_gpa: "本科 GPA",
-    metric_ranked: "排名第 1",
-    metric_scholarship: "PolyU Asian Capital Scholarship",
-    profile_kicker: "個人介紹",
-    profile_heading: "我具備涵蓋金融、估值、投資分析與科技驅動問題解決能力的完整專業組合。",
+    snapshot_label: "專業概覽",
+    snapshot_role: "金融學碩士畢業生",
+    snapshot_current_label: "目前",
+    snapshot_current: "眾安銀行投資團隊實習生",
+    snapshot_training_label: "專業訓練",
+    snapshot_training: "企業融資與應用經濟學",
+    snapshot_focus_label: "專注方向",
+    snapshot_focus: "投資產品、企業估值、數據分析與金融科技",
+    proof_gpa: "獎項計算 GPA",
+    proof_distinction_value: "以優異成績畢業",
+    proof_distinction: "金融學碩士",
+    proof_rank_value: "畢業排名第 1",
+    proof_rank: "金融學碩士課程",
+    proof_hksi: "已通過牌照考試",
+    profile_kicker: "專業概況",
+    profile_heading: "兼具投資產品判斷、估值紀律與落地執行能力的金融畢業生。",
     profile_p1:
-      "我目前於香港理工大學修讀金融學碩士（企業融資方向），獎項計算 GPA 為 4.03（優異），並以課程總排名第一獲得 Asian Capital Scholarship。我亦持有澳門城市大學應用經濟學學士學位，本科 GPA 為 3.92/4.0，並曾獲多項學術榮譽與獎學金。",
+      "我以優異成績畢業於香港理工大學金融學碩士（企業融資）課程，獎項計算 GPA 為 4.03/4.30，並以課程排名第一畢業。我的學術基礎亦包括應用經濟學學士學位、本科 GPA 3.92/4.00，以及多項以成績為基礎的獎學金。",
     profile_p2:
-      "在專業能力方面，我具備企業估值、財務會計及投資分析的扎實基礎，熟悉 DCF 估值、可比公司分析、可比交易分析、三表模型、盈餘品質分析、資本結構分析、WACC 估算、敏感度分析，以及財務報表解讀。",
+      "我的金融能力涵蓋企業估值、財務會計、投資分析、DCF、可比公司及先例交易分析、三表建模、盈利質量分析、資本結構、WACC 估算、敏感度分析與財務報表解讀。",
     profile_p3:
-      "在技術層面，我熟悉 Python、Stata、EViews、Power BI、Tableau、Bloomberg 及 Wind，並特別關注金融與科技的交叉應用。我也會運用 AI 輔助開發流程，快速原型化因子型量化交易策略，用於篩選、回測、投組建構與風險管理。除學術訓練外，我亦有實際參與港股與美股投資，接觸過股票、期權、期貨與組合策略，並以紀律化執行與風險控制作為核心方法。",
-    capability_kicker: "我能帶來的價值",
-    capability_title_1: "財務分析",
-    capability_text_1: "能夠解讀財務資訊、支援報告工作，並以分析證據和金融邏輯回應業務問題。",
-    capability_title_2: "流程優化",
-    capability_text_2: "能夠檢視工作流程、識別營運缺口，並以結構化分析與文件化方式支持效率提升。",
-    capability_title_3: "跨部門協作",
-    capability_text_3: "能在學術、技術及銀行相關環境中進行清晰溝通，保持專業度與穩定執行力。",
-    capability_title_4: "投資與科技能力",
-    capability_text_4: "能夠結合市場工具、研究思維、測試邏輯與 Python 分析能力，支援金融科技相關工作場景。",
-    education_kicker: "教育背景",
-    education_heading: "穩定而突出的學術表現。",
+      "在眾安銀行，我把這套分析基礎應用於投資產品需求、券商研究、投資者內容、Figma 原型及跨部門交付。我尤其希望參與能結合金融、產品思維、數據與科技的工作。",
+    capability_title_1: "投資產品研究",
+    capability_text_1: "券商基準比較、ETF 對比、市場內容評估與以投資者為中心的分析。",
+    capability_title_2: "企業融資與估值",
+    capability_text_2: "結構化估值、財務報表分析、建模與以證據支持的專業判斷。",
+    capability_title_3: "產品策略與原型",
+    capability_text_3: "PRD、業務規則、Figma 原型、產品基準比較與 AI 產品探索。",
+    capability_title_4: "數據、測試與交付",
+    capability_text_4: "分析工具、流程測試、缺陷報告、流程改進與持份者協調。",
+    experience_kicker: "專業經歷",
+    experience_heading: "橫跨數碼財富管理、金融教育、銀行系統與營運的實務經驗。",
+    za_meta: "06/2026 - 至今 | 香港",
+    za_title: "投資團隊實習生",
+    za_company: "眾安銀行有限公司 | 財富管理部",
+    za_tag: "數碼財富管理與投資產品",
+    za_summary:
+      "透過連結客戶需求、市場資訊、產品邏輯與跨部門執行，支援投資相關功能的設計、研究、內容製作與交付。",
+    za_stream_title_1: "需求與原型設計",
+    za_stream_text_1:
+      "為股票搜尋、市場標籤、報價展示、OCR 地址證明審核及股票轉倉流程撰寫 PRD 並製作 Figma 原型。",
+    za_stream_title_2: "券商與產品研究",
+    za_stream_text_2:
+      "就 ETF、新股服務、收費、固定收益、財經新聞、AI 工具及轉倉流程比較香港與美國券商平台。",
+    za_stream_title_3: "投資內容",
+    za_stream_text_3:
+      "製作面向客戶的 Feed 內容及 ETF 對比材料，涵蓋持倉、表現、費用、風險與同類產品定位。",
+    za_stream_title_4: "跨部門交付",
+    za_stream_text_4:
+      "支援業務、科技與營運團隊的需求評審，持續完善業務規則、原型及落地細節。",
+    za_stream_title_5: "AI 產品探索",
+    za_stream_text_5:
+      "提出 AI 市場情報機械人及儀表板助理方案，用於整理用戶回饋、競爭動態、市場趨勢與業務指標。",
+    ta_meta: "09/2023 - 06/2024 | 澳門",
+    ta_title: "財務管理課程助教",
+    ta_company: "澳門城市大學金融學院",
+    ta_tag: "金融教學支援",
+    ta_bullet_1: "按照一致的學術標準批改作業、測驗與考試。",
+    ta_bullet_2: "就貨幣時間價值、財務比率與預算等主題提供複習及答疑支援。",
+    ta_bullet_3: "整理學生回饋，支援課程內容與教學方式改進。",
+    cs_meta: "07/2023 - 08/2023 | 佛山",
+    cs_title: "初級工程師",
+    cs_company: "上海中軟國際華騰軟件系統有限公司",
+    cs_tag: "銀行系統品質保證",
+    cs_bullet_1: "分析按揭審批流程，包括申請、文件審核、信用評估與審批。",
+    cs_bullet_2: "設計並執行正常、異常及邊界測試場景，核對預期與實際結果。",
+    cs_bullet_3: "記錄缺陷重現步驟、影響分析及嚴重程度，提升問題追蹤效率。",
+    cgb_meta: "05/2022 - 08/2022 | 廣州",
+    cgb_title: "體驗管理部實習生",
+    cgb_company: "廣發銀行 | 總行信用卡中心",
+    cgb_tag: "營運與流程改進",
+    cgb_bullet_1: "透過資料收集、分析、整合與持份者溝通支援專案報告。",
+    cgb_bullet_2: "運用 JMP 分析支援工作流程與營運改進項目。",
+    cgb_bullet_3: "協調創新孵化及精益六西格瑪培訓活動、教材與後續跟進。",
+    education_kicker: "教育背景與榮譽",
+    education_heading: "以穩定表現、優異成績與獎學金肯定建立的學術紀錄。",
     education_meta_1: "09/2025 - 06/2026 | 香港",
     education_school_1: "香港理工大學",
-    education_lead_1: "金融學碩士（企業融資方向）",
-    education_gpa_1: "獎項計算 GPA：4.03 | 優異",
-    education_text_1:
-      "於 2025-2026 學年獲頒 Asian Capital Scholarship，並於金融學碩士課程中排名第一；獎項計算 GPA 為 4.03（優異）。",
+    education_degree_1: "金融學碩士（企業融資）",
+    education_result_1: "獎項計算 GPA | 以優異成績畢業 | 課程排名第 1",
+    education_award_1: "金融學碩士成績優異獎學金 2025/26",
+    education_award_2: "Asian Capital Scholarship 2025/26",
     education_meta_2: "09/2021 - 06/2025 | 澳門",
     education_school_2: "澳門城市大學",
-    education_lead_2: "應用經濟學學士，金融學院",
-    education_text_2:
-      "連續三年獲院長嘉許名單，並獲 Luso International Banking Ltd. 獎學金及 CHEUNG Kovu Scholarship。",
-    exchange_kicker: "交流項目",
-    exchange_heading: "透過國際學術交流進一步拓展分析能力與商業視野。",
-    exchange_meta_1: "07/2024 - 08/2024 | 英國劍橋",
-    exchange_school_1: "劍橋大學",
-    exchange_lead_1: "Business Analysis 暑期課程",
+    education_degree_2: "應用經濟學學士 | 金融學院",
+    education_result_2: "本科 GPA",
+    education_award_3: "金融學院院長嘉許名單 | 2021/22 - 2023/24",
+    education_award_4: "Luso International Banking Ltd. Scholarship | 2021/22、2022/23",
+    education_award_5: "CHEUNG Kovu Scholarship 2023/24 | 學術表現排名第 1",
+    exchange_kicker: "其他國際學術經歷",
+    exchange_intro: "短期學術經歷拓展了我在商業分析及跨文化協作方面的思考方式。",
+    exchange_title_1: "劍橋大學 | 商業分析",
     exchange_text_1:
-      "完成 Business Analysis 密集課程，重點涵蓋問題拆解、商業模式評估、市場與產業分析、數據支持決策，以及案例分析方法。該課程進一步提升我將商業問題轉化為分析框架、並在國際學術環境中清晰提出實務建議的能力。",
-    exchange_meta_2: "2023 | 香港",
-    exchange_school_2: "香港中文大學",
-    exchange_lead_2: "學術交流項目",
+      "運用問題拆解、商業模式評估、市場分析與案例推理，把複雜問題轉化為可執行的建議。",
+    exchange_title_2: "香港中文大學 | 學術交流",
     exchange_text_2:
-      "參與短期學術交流，進一步接觸香港的大學學術環境、跨學科學習文化及區域商業背景。這段經歷提升了我的跨文化溝通、協作學習與在高要求學術環境中的適應能力。",
-    experience_kicker: "實習經歷",
-    experience_heading: "展現金融、營運與執行能力的實務經驗。",
-    exp_meta_1: "09/2023 - 06/2024 | 澳門",
-    exp_title_1: "財務管理課程助教",
-    exp_company_1: "澳門城市大學金融學院",
-    exp_tag_1: "教學支援與學術品質",
-    exp_text_1:
-      "負責財務管理課程的作業批改、考試檢視及學生回饋管理，協助課程穩定運行。工作內容要求嚴謹的學術判斷、一致的評分標準，以及能夠以清晰有條理的方式解釋貨幣時間價值、資本預算與財務比率分析等核心概念。",
-    exp_bullet_1_1: "維持作業與試卷評分的一致性，支持課程學術品質控管。",
-    exp_bullet_1_2: "於答疑與教學支援過程中，清楚講解財務管理核心概念。",
-    exp_bullet_1_3: "提升金融場景下的溝通、展示及教學支援能力。",
-    exp_meta_2: "07/2023 - 08/2023 | 佛山",
-    exp_title_2: "初級工程師",
-    exp_company_2: "上海中軟國際華騰軟件系統有限公司",
-    exp_tag_2: "銀行流程測試與缺陷管理",
-    exp_text_2:
-      "參與按揭審批系統測試，直接接觸貸款申請流程、文件核驗邏輯、授信評估步驟及審批節點控制。主要工作涵蓋測試規劃、業務場景測試執行、缺陷識別與問題文件化，對銀行流程準確性有直接要求。",
-    exp_bullet_2_1: "將業務需求與作業流程轉化為結構化功能測試場景。",
-    exp_bullet_2_2: "覆蓋正常流程、異常情況與邊界條件，提升測試完整度。",
-    exp_bullet_2_3: "撰寫具追蹤性的缺陷報告，提升後續修復與協作效率。",
-    exp_meta_3: "05/2022 - 08/2022 | 廣州",
-    exp_title_3: "體驗管理部實習生",
-    exp_company_3: "廣發銀行總行信用卡中心",
-    exp_tag_3: "營運分析與專案協調",
-    exp_text_3:
-      "支援信用卡中心的專案執行、營運報告與流程優化工作，參與流程分析、活動支援、資料整合、培訓跟進，以及內部創新與服務改善相關協調事項。",
-    exp_bullet_3_1: "以結構化分析方式支持流程優化與營運改善工作。",
-    exp_bullet_3_2: "協調培訓、報告與專案執行相關的跨部門任務。",
-    exp_bullet_3_3: "運用 JMP 分析並整理資料，支援內部報告與管理需求。",
-    exp_meta_4: "01/2022 - 02/2022 | 廣州",
-    exp_title_4: "市場部實習生",
-    exp_company_4: "中國金融認證中心（CFCA）",
-    exp_tag_4: "金融科技產品支援與客戶溝通",
-    exp_text_4:
-      "支援與銀行客戶就數位證書管理系統及信任服務證書方案的業務交流，在受監管的金融科技環境中接觸產品溝通、客戶協調及金融機構服務需求。",
-    exp_bullet_4_1: "支援金融機構客戶的會議準備與客戶溝通工作。",
-    exp_bullet_4_2: "建立對數位信任基礎設施、認證產品及金融科技流程的理解。",
-    exp_bullet_4_3: "提升專業溝通、商業敏感度及對受監管客戶需求的認識。",
+      "提升對區域商業環境的理解、跨學科學習、跨文化溝通及在高要求學術環境中的適應力。",
     skills_kicker: "專業技能",
-    skills_heading: "涵蓋金融、分析與商業執行的完整能力組合。",
-    skill_title_1: "金融與企業分析",
+    skills_heading: "涵蓋金融、投資產品、產品交付、數據與市場的實務能力組合。",
+    skill_title_1: "金融與估值",
     skill_text_1:
-      "熟悉企業融資概念、財務管理基礎、經濟分析、財務比率解讀、預算邏輯及商業分析，可在結構化金融環境中開展分析工作。",
-    skill_title_2: "學術與量化能力",
+      "企業估值、財務會計、投資分析、DCF、可比公司、先例交易、三表建模、盈利質量、資本結構、WACC、敏感度分析與財務報表解讀。",
+    skill_title_2: "投資產品與市場",
     skill_text_2:
-      "具備扎實學術基礎與頂尖成績表現，並能運用 Excel、Power BI、Tableau、Stata、Python 及 EViews 進行量化分析與決策支援。",
-    skill_title_3: "投資與市場能力",
+      "券商基準比較、ETF 對比、新股及固定收益產品研究、市場新聞、轉倉流程、投資者教育與競爭分析。",
+    skill_title_3: "產品與交付",
     skill_text_3:
-      "熟悉市場觀察、投資研究支援及資訊蒐集，並能運用 Bloomberg Terminal、Wind 及嚴謹分析思維支持投資判斷。",
-    skill_title_4: "資訊與分析工具",
+      "PRD、Figma 原型、需求評審、業務規則完善、持份者協調、產品基準比較與 AI 產品構思。",
+    skill_title_4: "數據與科技",
     skill_text_4:
-      "能運用 Python 與多種分析工具支援資料處理、流程理解、報告整理及跨金融與商業場景的問題解決。",
-    skill_title_5: "營運與流程執行",
-    skill_text_5:
-      "具備流程分析、文件撰寫、測試紀律、缺陷記錄、流程優化支援及專案環境協作能力。",
-    skill_title_6: "溝通能力與職業準備",
-    skill_text_6:
-      "可使用廣東話、普通話及英語進行專業溝通，並已通過 HKSI Licensing Examination Paper 1，進一步提升金融及市場相關職位的就業準備度。",
+      "Python、Power BI、Tableau、Stata、EViews、JMP、Microsoft Office、流程測試、缺陷管理與 AI 輔助原型。",
+    skill_title_5: "市場平台",
+    skill_text_5: "具備 Bloomberg Terminal 及 Wind 的實務經驗，可支援金融資訊、市場監察與研究工作。",
+    skill_title_6: "語言與資格",
+    skill_text_6: "廣東話母語、普通話母語、英語流利，並已通過 HKSI Licensing Examination Paper 1。",
     contact_kicker: "聯絡方式",
-    contact_heading: "目前正在尋找專業職位機會。",
+    contact_heading: "尋找下一個能夠貢獻並持續成長的工作機會。",
     contact_text:
-      "我目前對金融、投資分析、銀行、策略支援、商業分析、營運及管理培訓生等職位保持開放。",
-    contact_note: "歡迎透過以下方式與我聯絡。",
+      "我對投資產品、財富管理、企業融資、銀行、會計、審計、諮詢、風險管理、商業分析及相關分析類全職職位保持開放。",
+    visa_label: "簽證狀況",
+    visa_note: "有資格申請香港 IANG 簽證。",
+    contact_email: "電郵",
+    contact_phone: "電話",
+    footer_focus: "金融 | 投資產品 | 分析",
+    footer_copyright: "2026 LAI Qitai 版權所有。",
+    copy_success: "已複製",
     feedback_fab: "給我建議",
     feedback_title: "職涯發展建議箱",
-    feedback_intro: "歡迎提供你對我職涯發展的建議，不需填寫姓名。",
+    feedback_intro: "歡迎提供你對我職涯發展的建議，毋須填寫姓名。",
     feedback_label: "你的職涯建議",
     feedback_placeholder: "請輸入你對我職涯發展的建議...",
     feedback_hint: "你的匿名建議會直接寄送到我的信箱。",
@@ -318,150 +333,155 @@ const translations = {
     feedback_sending: "正在送出...",
     feedback_success: "謝謝你，職涯建議已成功送出。",
     feedback_error: "送出失敗，請稍後再試。",
-    feedback_empty: "請先輸入你的職涯建議。",
-    visa_kicker: "簽證情況",
-    visa_note: "簽證情況：本人有資格申請香港 IANG 簽證。",
-    footer_line_1: "這是我的個人專業網站。",
-    footer_line_2: "我透過這個網站分享我的背景、經驗與專業方向。",
-    footer_line_3: "2026 LAI Qitai 版權所有。"
+    feedback_empty: "請先輸入你的建議。"
   },
   zhHans: {
-    page_title: "Vincent Qitai Lai | 金融与分析个人网站",
+    page_title: "Vincent Qitai Lai | 金融、投资产品与分析",
     page_description:
-      "我目前就读香港理工大学企业融资方向金融学硕士，具备银行营运、财务管理教学支持、流程优化、软件测试、投资研究与商业分析等经验。",
+      "Vincent Qitai Lai 是以优异成绩毕业的金融学硕士，现于众安银行投资团队实习，专注投资产品、企业估值、数据分析与科技驱动执行。",
+    skip_link: "跳至主要内容",
+    menu: "菜单",
     nav_profile: "个人介绍",
+    nav_experience: "专业经历",
     nav_education: "教育背景",
-    nav_exchange: "交流项目",
-    nav_experience: "实习经历",
     nav_skills: "专业技能",
     nav_contact: "联系方式",
-    hero_eyebrow: "金融 | 策略 | 分析",
-    hero_line_1: "对金融充满热情。",
-    hero_line_2: "专注于金融与科技的结合。",
-    hero_line_3: "重视分析能力与专业执行。",
+    hero_status: "正在香港寻找全职工作机会",
+    hero_eyebrow: "金融 | 投资产品 | 分析",
+    hero_title: "金融、投资产品与科技驱动执行。",
     hero_summary:
-      "我以对金融的兴趣、严谨的分析训练，以及对科技如何提升研究、决策与执行效率的关注，建立自己的专业方向。",
-    hero_status: "目前正在寻找金融、银行及分析相关工作机会",
-    identity_role: "金融学硕士学生",
-    identity_item_1: "香港理工大学",
-    identity_item_2: "企业融资方向",
-    identity_item_3: "银行与分析能力",
-    hero_focus_label: "专注方向",
-    hero_focus_text: "企业融资、投资分析、银行、会计、审计、咨询、风险管理及分析类职位。",
+      "我结合企业融资训练、投资产品经验与科技驱动的执行能力，把复杂的市场及业务问题转化为清晰、可落地的成果。",
     contact_me: "联系我",
     view_cv: "查看履历",
-    metric_mf_gpa: "奖项计算 GPA（优异）",
-    metric_ba_gpa: "本科 GPA",
-    metric_ranked: "排名第 1",
-    metric_scholarship: "PolyU Asian Capital Scholarship",
-    profile_kicker: "个人介绍",
-    profile_heading: "我具备涵盖金融、估值、投资分析与科技驱动问题解决能力的完整专业组合。",
+    snapshot_label: "专业概览",
+    snapshot_role: "金融学硕士毕业生",
+    snapshot_current_label: "目前",
+    snapshot_current: "众安银行投资团队实习生",
+    snapshot_training_label: "专业训练",
+    snapshot_training: "企业融资与应用经济学",
+    snapshot_focus_label: "专注方向",
+    snapshot_focus: "投资产品、企业估值、数据分析与金融科技",
+    proof_gpa: "奖项计算 GPA",
+    proof_distinction_value: "以优异成绩毕业",
+    proof_distinction: "金融学硕士",
+    proof_rank_value: "毕业排名第 1",
+    proof_rank: "金融学硕士课程",
+    proof_hksi: "已通过牌照考试",
+    profile_kicker: "专业概况",
+    profile_heading: "兼具投资产品判断、估值纪律与落地执行能力的金融毕业生。",
     profile_p1:
-      "我目前于香港理工大学就读金融学硕士（企业融资方向），奖项计算 GPA 为 4.03（优异），并以课程总排名第一获得 Asian Capital Scholarship。我亦持有澳门城市大学应用经济学学士学位，本科 GPA 为 3.92/4.0，并曾获多项学术荣誉与奖学金。",
+      "我以优异成绩毕业于香港理工大学金融学硕士（企业融资）课程，奖项计算 GPA 为 4.03/4.30，并以课程排名第一毕业。我的学术基础亦包括应用经济学学士学位、本科 GPA 3.92/4.00，以及多项以成绩为基础的奖学金。",
     profile_p2:
-      "在专业能力方面，我具备企业估值、财务会计及投资分析的扎实基础，熟悉 DCF 估值、可比公司分析、可比交易分析、三表模型、盈余质量分析、资本结构分析、WACC 估算、敏感度分析，以及财务报表解读。",
+      "我的金融能力涵盖企业估值、财务会计、投资分析、DCF、可比公司及先例交易分析、三表建模、盈利质量分析、资本结构、WACC 估算、敏感度分析与财务报表解读。",
     profile_p3:
-      "在技术层面，我熟悉 Python、Stata、EViews、Power BI、Tableau、Bloomberg 及 Wind，并特别关注金融与科技的交叉应用。我也会运用 AI 辅助开发流程，快速原型化因子型量化交易策略，用于筛选、回测、组合构建与风险管理。除学术训练外，我亦有实际参与港股与美股投资，接触过股票、期权、期货与组合策略，并以纪律化执行与风险控制作为核心方法。",
-    capability_kicker: "我能带来的价值",
-    capability_title_1: "财务分析",
-    capability_text_1: "能够解读财务信息、支持报告工作，并以分析证据和金融逻辑回应业务问题。",
-    capability_title_2: "流程优化",
-    capability_text_2: "能够检视工作流程、识别营运缺口，并以结构化分析与文档化方式支持效率提升。",
-    capability_title_3: "跨部门协作",
-    capability_text_3: "能在学术、技术及银行相关环境中进行清晰沟通，保持专业度与稳定执行力。",
-    capability_title_4: "投资与科技能力",
-    capability_text_4: "能够结合市场工具、研究思维、测试逻辑与 Python 分析能力，支持金融科技相关工作场景。",
-    education_kicker: "教育背景",
-    education_heading: "稳定而突出的学术表现。",
+      "在众安银行，我把这套分析基础应用于投资产品需求、券商研究、投资者内容、Figma 原型及跨部门交付。我尤其希望参与能结合金融、产品思维、数据与科技的工作。",
+    capability_title_1: "投资产品研究",
+    capability_text_1: "券商基准比较、ETF 对比、市场内容评估与以投资者为中心的分析。",
+    capability_title_2: "企业融资与估值",
+    capability_text_2: "结构化估值、财务报表分析、建模与以证据支持的专业判断。",
+    capability_title_3: "产品策略与原型",
+    capability_text_3: "PRD、业务规则、Figma 原型、产品基准比较与 AI 产品探索。",
+    capability_title_4: "数据、测试与交付",
+    capability_text_4: "分析工具、流程测试、缺陷报告、流程改进与利益相关者协调。",
+    experience_kicker: "专业经历",
+    experience_heading: "横跨数字财富管理、金融教育、银行系统与运营的实务经验。",
+    za_meta: "06/2026 - 至今 | 香港",
+    za_title: "投资团队实习生",
+    za_company: "众安银行有限公司 | 财富管理部",
+    za_tag: "数字财富管理与投资产品",
+    za_summary:
+      "通过连接客户需求、市场信息、产品逻辑与跨部门执行，支持投资相关功能的设计、研究、内容制作与交付。",
+    za_stream_title_1: "需求与原型设计",
+    za_stream_text_1:
+      "为股票搜索、市场标签、报价展示、OCR 地址证明审核及股票转仓流程撰写 PRD 并制作 Figma 原型。",
+    za_stream_title_2: "券商与产品研究",
+    za_stream_text_2:
+      "就 ETF、新股服务、收费、固定收益、财经新闻、AI 工具及转仓流程比较香港与美国券商平台。",
+    za_stream_title_3: "投资内容",
+    za_stream_text_3:
+      "制作面向客户的 Feed 内容及 ETF 对比材料，涵盖持仓、表现、费用、风险与同类产品定位。",
+    za_stream_title_4: "跨部门交付",
+    za_stream_text_4:
+      "支持业务、科技与运营团队的需求评审，持续完善业务规则、原型及落地细节。",
+    za_stream_title_5: "AI 产品探索",
+    za_stream_text_5:
+      "提出 AI 市场情报机器人及仪表板助手方案，用于整理用户反馈、竞争动态、市场趋势与业务指标。",
+    ta_meta: "09/2023 - 06/2024 | 澳门",
+    ta_title: "财务管理课程助教",
+    ta_company: "澳门城市大学金融学院",
+    ta_tag: "金融教学支持",
+    ta_bullet_1: "按照一致的学术标准批改作业、测验与考试。",
+    ta_bullet_2: "就货币时间价值、财务比率与预算等主题提供复习及答疑支持。",
+    ta_bullet_3: "整理学生反馈，支持课程内容与教学方式改进。",
+    cs_meta: "07/2023 - 08/2023 | 佛山",
+    cs_title: "初级工程师",
+    cs_company: "上海中软国际华腾软件系统有限公司",
+    cs_tag: "银行系统质量保证",
+    cs_bullet_1: "分析按揭审批流程，包括申请、文件审核、信用评估与审批。",
+    cs_bullet_2: "设计并执行正常、异常及边界测试场景，核对预期与实际结果。",
+    cs_bullet_3: "记录缺陷重现步骤、影响分析及严重程度，提升问题追踪效率。",
+    cgb_meta: "05/2022 - 08/2022 | 广州",
+    cgb_title: "体验管理部实习生",
+    cgb_company: "广发银行 | 总行信用卡中心",
+    cgb_tag: "运营与流程改进",
+    cgb_bullet_1: "通过资料收集、分析、整合与利益相关者沟通支持项目报告。",
+    cgb_bullet_2: "运用 JMP 分析支持工作流程与运营改进项目。",
+    cgb_bullet_3: "协调创新孵化及精益六西格玛培训活动、教材与后续跟进。",
+    education_kicker: "教育背景与荣誉",
+    education_heading: "以稳定表现、优异成绩与奖学金肯定建立的学术记录。",
     education_meta_1: "09/2025 - 06/2026 | 香港",
     education_school_1: "香港理工大学",
-    education_lead_1: "金融学硕士（企业融资方向）",
-    education_gpa_1: "奖项计算 GPA：4.03 | 优异",
-    education_text_1:
-      "于 2025-2026 学年获颁 Asian Capital Scholarship，并于金融学硕士课程中排名第一；奖项计算 GPA 为 4.03（优异）。",
+    education_degree_1: "金融学硕士（企业融资）",
+    education_result_1: "奖项计算 GPA | 以优异成绩毕业 | 课程排名第 1",
+    education_award_1: "金融学硕士成绩优异奖学金 2025/26",
+    education_award_2: "Asian Capital Scholarship 2025/26",
     education_meta_2: "09/2021 - 06/2025 | 澳门",
     education_school_2: "澳门城市大学",
-    education_lead_2: "应用经济学学士，金融学院",
-    education_text_2:
-      "连续三年获院长嘉许名单，并获 Luso International Banking Ltd. 奖学金及 CHEUNG Kovu Scholarship。",
-    exchange_kicker: "交流项目",
-    exchange_heading: "通过国际学术交流进一步拓展分析能力与商业视野。",
-    exchange_meta_1: "07/2024 - 08/2024 | 英国剑桥",
-    exchange_school_1: "剑桥大学",
-    exchange_lead_1: "Business Analysis 暑期课程",
+    education_degree_2: "应用经济学学士 | 金融学院",
+    education_result_2: "本科 GPA",
+    education_award_3: "金融学院院长嘉许名单 | 2021/22 - 2023/24",
+    education_award_4: "Luso International Banking Ltd. Scholarship | 2021/22、2022/23",
+    education_award_5: "CHEUNG Kovu Scholarship 2023/24 | 学术表现排名第 1",
+    exchange_kicker: "其他国际学术经历",
+    exchange_intro: "短期学术经历拓展了我在商业分析及跨文化协作方面的思考方式。",
+    exchange_title_1: "剑桥大学 | 商业分析",
     exchange_text_1:
-      "完成 Business Analysis 密集课程，重点涵盖问题拆解、商业模式评估、市场与产业分析、数据支持决策，以及案例分析方法。该课程进一步提升我将商业问题转化为分析框架、并在国际学术环境中清晰提出实务建议的能力。",
-    exchange_meta_2: "2023 | 香港",
-    exchange_school_2: "香港中文大学",
-    exchange_lead_2: "学术交流项目",
+      "运用问题拆解、商业模式评估、市场分析与案例推理，把复杂问题转化为可执行的建议。",
+    exchange_title_2: "香港中文大学 | 学术交流",
     exchange_text_2:
-      "参与短期学术交流，进一步接触香港的大学学术环境、跨学科学习文化及区域商业背景。这段经历提升了我的跨文化沟通、协作学习与在高要求学术环境中的适应能力。",
-    experience_kicker: "实习经历",
-    experience_heading: "展现金融、营运与执行能力的实务经验。",
-    exp_meta_1: "09/2023 - 06/2024 | 澳门",
-    exp_title_1: "财务管理课程助教",
-    exp_company_1: "澳门城市大学金融学院",
-    exp_tag_1: "教学支持与学术质量",
-    exp_text_1:
-      "负责财务管理课程的作业批改、考试检视及学生反馈管理，协助课程稳定运行。工作内容要求严谨的学术判断、一致的评分标准，以及能够以清晰有条理的方式解释货币时间价值、资本预算与财务比率分析等核心概念。",
-    exp_bullet_1_1: "维持作业与试卷评分的一致性，支持课程学术质量管控。",
-    exp_bullet_1_2: "于答疑与教学支持过程中，清楚讲解财务管理核心概念。",
-    exp_bullet_1_3: "提升金融场景下的沟通、展示及教学支持能力。",
-    exp_meta_2: "07/2023 - 08/2023 | 佛山",
-    exp_title_2: "初级工程师",
-    exp_company_2: "上海中软国际华腾软件系统有限公司",
-    exp_tag_2: "银行流程测试与缺陷管理",
-    exp_text_2:
-      "参与按揭审批系统测试，直接接触贷款申请流程、文件核验逻辑、授信评估步骤及审批节点控制。主要工作涵盖测试规划、业务场景测试执行、缺陷识别与问题文档化，对银行流程准确性有直接要求。",
-    exp_bullet_2_1: "将业务需求与作业流程转化为结构化功能测试场景。",
-    exp_bullet_2_2: "覆盖正常流程、异常情况与边界条件，提升测试完整度。",
-    exp_bullet_2_3: "撰写具追踪性的缺陷报告，提升后续修复与协作效率。",
-    exp_meta_3: "05/2022 - 08/2022 | 广州",
-    exp_title_3: "体验管理部实习生",
-    exp_company_3: "广发银行总行信用卡中心",
-    exp_tag_3: "营运分析与项目协调",
-    exp_text_3:
-      "支持信用卡中心的项目执行、营运报告与流程优化工作，参与流程分析、活动支持、资料整合、培训跟进，以及内部创新与服务改善相关协调事项。",
-    exp_bullet_3_1: "以结构化分析方式支持流程优化与营运改善工作。",
-    exp_bullet_3_2: "协调培训、报告与项目执行相关的跨部门任务。",
-    exp_bullet_3_3: "运用 JMP 分析并整理资料，支持内部报告与管理需求。",
-    exp_meta_4: "01/2022 - 02/2022 | 广州",
-    exp_title_4: "市场部实习生",
-    exp_company_4: "中国金融认证中心（CFCA）",
-    exp_tag_4: "金融科技产品支持与客户沟通",
-    exp_text_4:
-      "支持与银行客户就数字证书管理系统及信任服务证书方案的业务交流，在受监管的金融科技环境中接触产品沟通、客户协调及金融机构服务需求。",
-    exp_bullet_4_1: "支持金融机构客户的会议准备与客户沟通工作。",
-    exp_bullet_4_2: "建立对数字信任基础设施、认证产品及金融科技流程的理解。",
-    exp_bullet_4_3: "提升专业沟通、商业敏感度及对受监管客户需求的认识。",
+      "提升对区域商业环境的理解、跨学科学习、跨文化沟通及在高要求学术环境中的适应力。",
     skills_kicker: "专业技能",
-    skills_heading: "涵盖金融、分析与商业执行的完整能力组合。",
-    skill_title_1: "金融与企业分析",
+    skills_heading: "涵盖金融、投资产品、产品交付、数据与市场的实务能力组合。",
+    skill_title_1: "金融与估值",
     skill_text_1:
-      "熟悉企业融资概念、财务管理基础、经济分析、财务比率解读、预算逻辑及商业分析，可在结构化金融环境中开展分析工作。",
-    skill_title_2: "学术与量化能力",
+      "企业估值、财务会计、投资分析、DCF、可比公司、先例交易、三表建模、盈利质量、资本结构、WACC、敏感度分析与财务报表解读。",
+    skill_title_2: "投资产品与市场",
     skill_text_2:
-      "具备扎实学术基础与顶尖成绩表现，并能运用 Excel、Power BI、Tableau、Stata、Python 及 EViews 进行量化分析与决策支持。",
-    skill_title_3: "投资与市场能力",
+      "券商基准比较、ETF 对比、新股及固定收益产品研究、市场新闻、转仓流程、投资者教育与竞争分析。",
+    skill_title_3: "产品与交付",
     skill_text_3:
-      "熟悉市场观察、投资研究支持及信息搜集，并能运用 Bloomberg Terminal、Wind 及严谨分析思维支持投资判断。",
-    skill_title_4: "信息与分析工具",
+      "PRD、Figma 原型、需求评审、业务规则完善、利益相关者协调、产品基准比较与 AI 产品构思。",
+    skill_title_4: "数据与科技",
     skill_text_4:
-      "能运用 Python 与多种分析工具支持资料处理、流程理解、报告整理及跨金融与商业场景的问题解决。",
-    skill_title_5: "营运与流程执行",
-    skill_text_5:
-      "具备流程分析、文档撰写、测试纪律、缺陷记录、流程优化支持及项目环境协作能力。",
-    skill_title_6: "沟通能力与职业准备",
-    skill_text_6:
-      "可使用广东话、普通话及英语进行专业沟通，并已通过 HKSI Licensing Examination Paper 1，进一步提升金融及市场相关职位的就业准备度。",
+      "Python、Power BI、Tableau、Stata、EViews、JMP、Microsoft Office、流程测试、缺陷管理与 AI 辅助原型。",
+    skill_title_5: "市场平台",
+    skill_text_5: "具备 Bloomberg Terminal 及 Wind 的实务经验，可支持金融信息、市场监测与研究工作。",
+    skill_title_6: "语言与资格",
+    skill_text_6: "广东话母语、普通话母语、英语流利，并已通过 HKSI Licensing Examination Paper 1。",
     contact_kicker: "联系方式",
-    contact_heading: "目前正在寻找专业职位机会。",
+    contact_heading: "寻找下一个能够贡献并持续成长的工作机会。",
     contact_text:
-      "我目前对金融、投资分析、银行、策略支持、商业分析、营运及管理培训生等职位保持开放。",
-    contact_note: "欢迎通过以下方式与我联系。",
+      "我对投资产品、财富管理、企业融资、银行、会计、审计、咨询、风险管理、商业分析及相关分析类全职职位保持开放。",
+    visa_label: "签证状况",
+    visa_note: "有资格申请香港 IANG 签证。",
+    contact_email: "邮箱",
+    contact_phone: "电话",
+    footer_focus: "金融 | 投资产品 | 分析",
+    footer_copyright: "2026 LAI Qitai 版权所有。",
+    copy_success: "已复制",
     feedback_fab: "给我建议",
     feedback_title: "职业发展建议箱",
-    feedback_intro: "欢迎提供你对我职业发展的建议，不需填写姓名。",
+    feedback_intro: "欢迎提供你对我职业发展的建议，无需填写姓名。",
     feedback_label: "你的职业建议",
     feedback_placeholder: "请输入你对我职业发展的建议...",
     feedback_hint: "你的匿名建议会直接发送到我的邮箱。",
@@ -470,21 +490,23 @@ const translations = {
     feedback_sending: "正在发送...",
     feedback_success: "谢谢你，职业建议已成功发送。",
     feedback_error: "发送失败，请稍后再试。",
-    feedback_empty: "请先输入你的职业建议。",
-    visa_kicker: "签证情况",
-    visa_note: "签证情况：本人有资格申请香港 IANG 签证。",
-    footer_line_1: "这是我的个人专业网站。",
-    footer_line_2: "我通过这个网站分享我的背景、经验与专业方向。",
-    footer_line_3: "2026 LAI Qitai 版权所有。"
+    feedback_empty: "请先输入你的建议。"
   }
 };
 
-const revealNodes = document.querySelectorAll(".reveal");
+const supportedLanguages = ["en", "zhHant", "zhHans"];
 const translatableNodes = document.querySelectorAll("[data-i18n]");
-const translatablePlaceholderNodes = document.querySelectorAll("[data-i18n-placeholder]");
-const langButtons = document.querySelectorAll("[data-set-lang]");
+const placeholderNodes = document.querySelectorAll("[data-i18n-placeholder]");
+const languageButtons = document.querySelectorAll("[data-set-lang]");
 const siteDescription = document.querySelector("#site-description");
-const footerNode = document.querySelector(".footer");
+const openGraphTitle = document.querySelector('meta[property="og:title"]');
+const openGraphDescription = document.querySelector('meta[property="og:description"]');
+const siteHeader = document.querySelector(".site-header");
+const navToggle = document.querySelector("[data-nav-toggle]");
+const navLinks = document.querySelectorAll(".site-nav a");
+const readingProgress = document.querySelector(".reading-progress span");
+const copyButtons = document.querySelectorAll("[data-copy]");
+const copyToast = document.querySelector("[data-copy-toast]");
 const feedbackWidget = document.querySelector("#feedback-widget");
 const feedbackOpenButton = document.querySelector("[data-feedback-open]");
 const feedbackCloseButtons = document.querySelectorAll("[data-feedback-close]");
@@ -494,48 +516,25 @@ const feedbackMessageField = document.querySelector("#feedback-message");
 const feedbackPageUrlField = document.querySelector("#feedback-page-url");
 const feedbackSubmitButton = feedbackForm?.querySelector('button[type="submit"]');
 const feedbackEndpoint = "https://formsubmit.co/ajax/18702082714@163.com";
-const supportedLanguages = ["en", "zhHant", "zhHans"];
+const footer = document.querySelector(".site-footer");
 let activeLanguage = "en";
+let feedbackTrigger = null;
+let toastTimer = null;
 let lastFeedbackNudgeAt = 0;
-const feedbackNudgeCooldownMs = 5200;
 
-if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    {
-      threshold: 0.16,
-      rootMargin: "0px 0px -4% 0px"
-    }
-  );
-
-  revealNodes.forEach((node, index) => {
-    node.style.transitionDelay = `${Math.min(index * 70, 320)}ms`;
-    observer.observe(node);
-  });
-} else {
-  revealNodes.forEach((node) => node.classList.add("visible"));
-}
-
-function getActiveCopy() {
+function getCopy() {
   return translations[activeLanguage] || translations.en;
 }
 
-function setFeedbackStatus(copyKey, isError = false, isSuccess = false) {
+function setFeedbackStatus(key, state = "") {
   if (!feedbackStatusNode) {
     return;
   }
 
-  const copy = getActiveCopy();
-  feedbackStatusNode.textContent = copy[copyKey] || translations.en[copyKey] || "";
-  feedbackStatusNode.classList.toggle("is-error", isError);
-  feedbackStatusNode.classList.toggle("is-success", isSuccess);
+  const copy = getCopy();
+  feedbackStatusNode.textContent = copy[key] || translations.en[key] || "";
+  feedbackStatusNode.classList.toggle("is-error", state === "error");
+  feedbackStatusNode.classList.toggle("is-success", state === "success");
 }
 
 function setLanguage(language) {
@@ -550,7 +549,7 @@ function setLanguage(language) {
     }
   });
 
-  translatablePlaceholderNodes.forEach((node) => {
+  placeholderNodes.forEach((node) => {
     const key = node.dataset.i18nPlaceholder;
     if (copy[key]) {
       node.setAttribute("placeholder", copy[key]);
@@ -561,46 +560,185 @@ function setLanguage(language) {
     nextLanguage === "zhHant" ? "zh-Hant" : nextLanguage === "zhHans" ? "zh-Hans" : "en";
   document.body.dataset.lang = nextLanguage;
   document.title = copy.page_title;
+  siteDescription?.setAttribute("content", copy.page_description);
+  openGraphTitle?.setAttribute("content", copy.page_title);
+  openGraphDescription?.setAttribute("content", copy.page_description);
 
-  langButtons.forEach((button) => {
+  languageButtons.forEach((button) => {
     const isActive = button.dataset.setLang === nextLanguage;
     button.classList.toggle("is-active", isActive);
-    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    button.setAttribute("aria-pressed", String(isActive));
   });
-
-  if (siteDescription) {
-    siteDescription.setAttribute("content", copy.page_description);
-  }
 
   window.localStorage.setItem("site-language", nextLanguage);
 }
 
-const storedLanguage = window.localStorage.getItem("site-language");
-const initialLanguage = supportedLanguages.includes(storedLanguage) ? storedLanguage : "en";
+function detectInitialLanguage() {
+  const storedLanguage = window.localStorage.getItem("site-language");
+  if (supportedLanguages.includes(storedLanguage)) {
+    return storedLanguage;
+  }
 
-setLanguage(initialLanguage);
-
-if (langButtons.length) {
-  langButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      setLanguage(button.dataset.setLang);
-    });
-  });
+  const browserLanguage = navigator.language || "";
+  if (/zh-(TW|HK|MO|Hant)/i.test(browserLanguage)) {
+    return "zhHant";
+  }
+  if (/^zh/i.test(browserLanguage)) {
+    return "zhHans";
+  }
+  return "en";
 }
+
+setLanguage(detectInitialLanguage());
+
+languageButtons.forEach((button) => {
+  button.addEventListener("click", () => setLanguage(button.dataset.setLang));
+});
+
+function closeNavigation() {
+  siteHeader?.classList.remove("is-menu-open");
+  navToggle?.setAttribute("aria-expanded", "false");
+}
+
+navToggle?.addEventListener("click", () => {
+  const willOpen = !siteHeader?.classList.contains("is-menu-open");
+  siteHeader?.classList.toggle("is-menu-open", willOpen);
+  navToggle.setAttribute("aria-expanded", String(willOpen));
+});
+
+navLinks.forEach((link) => link.addEventListener("click", closeNavigation));
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 1120) {
+    closeNavigation();
+  }
+});
+
+const revealNodes = document.querySelectorAll(".reveal");
+if ("IntersectionObserver" in window) {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.08, rootMargin: "0px 0px -5% 0px" }
+  );
+
+  revealNodes.forEach((node, index) => {
+    node.style.transitionDelay = `${Math.min(index * 45, 180)}ms`;
+    revealObserver.observe(node);
+  });
+} else {
+  revealNodes.forEach((node) => node.classList.add("visible"));
+}
+
+const observedSections = [...navLinks]
+  .map((link) => document.querySelector(link.getAttribute("href")))
+  .filter(Boolean);
+
+if ("IntersectionObserver" in window && observedSections.length) {
+  const navObserver = new IntersectionObserver(
+    (entries) => {
+      const visibleEntry = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+      if (!visibleEntry) {
+        return;
+      }
+
+      navLinks.forEach((link) => {
+        const isActive = link.getAttribute("href") === `#${visibleEntry.target.id}`;
+        link.classList.toggle("is-active", isActive);
+        if (isActive) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    },
+    { rootMargin: "-30% 0px -58% 0px", threshold: [0, 0.2, 0.5] }
+  );
+
+  observedSections.forEach((section) => navObserver.observe(section));
+}
+
+let scrollTicking = false;
+function updateReadingProgress() {
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = scrollable > 0 ? Math.min(window.scrollY / scrollable, 1) : 0;
+  if (readingProgress) {
+    readingProgress.style.width = `${progress * 100}%`;
+  }
+  scrollTicking = false;
+}
+
+window.addEventListener(
+  "scroll",
+  () => {
+    if (!scrollTicking) {
+      window.requestAnimationFrame(updateReadingProgress);
+      scrollTicking = true;
+    }
+  },
+  { passive: true }
+);
+updateReadingProgress();
+
+function showCopyToast() {
+  if (!copyToast) {
+    return;
+  }
+
+  window.clearTimeout(toastTimer);
+  copyToast.textContent = getCopy().copy_success;
+  copyToast.classList.add("is-visible");
+  toastTimer = window.setTimeout(() => copyToast.classList.remove("is-visible"), 1800);
+}
+
+async function copyText(value) {
+  if (navigator.clipboard && window.isSecureContext) {
+    await navigator.clipboard.writeText(value);
+    return;
+  }
+
+  const helper = document.createElement("textarea");
+  helper.value = value;
+  helper.setAttribute("readonly", "");
+  helper.style.position = "fixed";
+  helper.style.opacity = "0";
+  document.body.appendChild(helper);
+  helper.select();
+  document.execCommand("copy");
+  helper.remove();
+}
+
+copyButtons.forEach((button) => {
+  button.addEventListener("click", async () => {
+    try {
+      await copyText(button.dataset.copy);
+      showCopyToast();
+    } catch {
+      // Copy is a convenience; the value remains visible if clipboard access is denied.
+    }
+  });
+});
 
 function openFeedbackWidget() {
   if (!feedbackWidget) {
     return;
   }
 
+  feedbackTrigger = document.activeElement;
   feedbackWidget.classList.add("is-open");
   feedbackWidget.setAttribute("aria-hidden", "false");
-  if (feedbackOpenButton) {
-    feedbackOpenButton.setAttribute("aria-expanded", "true");
-  }
-  if (feedbackMessageField) {
-    feedbackMessageField.focus();
-  }
+  feedbackOpenButton?.setAttribute("aria-expanded", "true");
+  document.body.classList.add("is-modal-open");
+  feedbackMessageField?.focus();
 }
 
 function closeFeedbackWidget() {
@@ -610,9 +748,10 @@ function closeFeedbackWidget() {
 
   feedbackWidget.classList.remove("is-open");
   feedbackWidget.setAttribute("aria-hidden", "true");
-  if (feedbackOpenButton) {
-    feedbackOpenButton.setAttribute("aria-expanded", "false");
-    feedbackOpenButton.focus();
+  feedbackOpenButton?.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("is-modal-open");
+  if (feedbackTrigger instanceof HTMLElement) {
+    feedbackTrigger.focus();
   }
 }
 
@@ -622,31 +761,21 @@ function nudgeFeedbackButton() {
   }
 
   const now = Date.now();
-  if (now - lastFeedbackNudgeAt < feedbackNudgeCooldownMs) {
+  if (now - lastFeedbackNudgeAt < 5200) {
     return;
   }
 
   lastFeedbackNudgeAt = now;
   feedbackOpenButton.classList.remove("is-nudging");
-  // Force reflow so repeated nudges can replay the animation class.
   void feedbackOpenButton.offsetWidth;
   feedbackOpenButton.classList.add("is-nudging");
 }
 
-if (feedbackOpenButton) {
-  feedbackOpenButton.addEventListener("click", openFeedbackWidget);
-  feedbackOpenButton.addEventListener("animationend", (event) => {
-    if (event.animationName === "feedback-nudge") {
-      feedbackOpenButton.classList.remove("is-nudging");
-    }
-  });
-}
-
-if (feedbackCloseButtons.length) {
-  feedbackCloseButtons.forEach((button) => {
-    button.addEventListener("click", closeFeedbackWidget);
-  });
-}
+feedbackOpenButton?.addEventListener("click", openFeedbackWidget);
+feedbackOpenButton?.addEventListener("animationend", () => {
+  feedbackOpenButton.classList.remove("is-nudging");
+});
+feedbackCloseButtons.forEach((button) => button.addEventListener("click", closeFeedbackWidget));
 
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && feedbackWidget?.classList.contains("is-open")) {
@@ -654,78 +783,59 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-if (feedbackOpenButton && footerNode && "IntersectionObserver" in window) {
-  let footerInView = false;
+if (footer && feedbackOpenButton && "IntersectionObserver" in window) {
+  let footerWasVisible = false;
   const footerObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting && !footerInView) {
+        if (entry.isIntersecting && !footerWasVisible) {
           nudgeFeedbackButton();
-          footerInView = true;
-          return;
-        }
-
-        if (!entry.isIntersecting) {
-          footerInView = false;
+          footerWasVisible = true;
+        } else if (!entry.isIntersecting) {
+          footerWasVisible = false;
         }
       });
     },
-    {
-      threshold: 0.35
-    }
+    { threshold: 0.35 }
   );
-
-  footerObserver.observe(footerNode);
+  footerObserver.observe(footer);
 }
 
-if (feedbackForm) {
-  feedbackForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
+feedbackForm?.addEventListener("submit", async (event) => {
+  event.preventDefault();
 
-    if (!feedbackMessageField) {
-      return;
+  const message = feedbackMessageField?.value.trim() || "";
+  if (!message) {
+    setFeedbackStatus("feedback_empty", "error");
+    feedbackMessageField?.focus();
+    return;
+  }
+
+  if (feedbackPageUrlField) {
+    feedbackPageUrlField.value = window.location.href;
+  }
+
+  const payload = new FormData(feedbackForm);
+  payload.set("message", message);
+  feedbackSubmitButton?.setAttribute("disabled", "true");
+  setFeedbackStatus("feedback_sending");
+
+  try {
+    const response = await fetch(feedbackEndpoint, {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: payload
+    });
+
+    if (!response.ok) {
+      throw new Error("Suggestion request failed");
     }
 
-    const message = feedbackMessageField.value.trim();
-    if (!message) {
-      setFeedbackStatus("feedback_empty", true);
-      feedbackMessageField.focus();
-      return;
-    }
-
-    if (feedbackPageUrlField) {
-      feedbackPageUrlField.value = window.location.href;
-    }
-
-    const payload = new FormData(feedbackForm);
-    payload.set("message", message);
-
-    if (feedbackSubmitButton) {
-      feedbackSubmitButton.setAttribute("disabled", "true");
-    }
-    setFeedbackStatus("feedback_sending");
-
-    try {
-      const response = await fetch(feedbackEndpoint, {
-        method: "POST",
-        headers: {
-          Accept: "application/json"
-        },
-        body: payload
-      });
-
-      if (!response.ok) {
-        throw new Error("Suggestion request failed");
-      }
-
-      feedbackForm.reset();
-      setFeedbackStatus("feedback_success", false, true);
-    } catch {
-      setFeedbackStatus("feedback_error", true);
-    } finally {
-      if (feedbackSubmitButton) {
-        feedbackSubmitButton.removeAttribute("disabled");
-      }
-    }
-  });
-}
+    feedbackForm.reset();
+    setFeedbackStatus("feedback_success", "success");
+  } catch {
+    setFeedbackStatus("feedback_error", "error");
+  } finally {
+    feedbackSubmitButton?.removeAttribute("disabled");
+  }
+});
