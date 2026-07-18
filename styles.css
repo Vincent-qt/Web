@@ -363,9 +363,10 @@ main {
 
 .hero h1 {
   max-width: 18ch;
-  font-size: clamp(52px, 5.4vw, 84px);
+  font-size: clamp(46px, 4.4vw, 68px);
   font-weight: 700;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
   text-wrap: balance;
 }
 
@@ -548,7 +549,7 @@ main {
 .section-number {
   margin-bottom: 22px;
   color: var(--gold-light);
-  font-size: 52px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1;
 }
@@ -560,17 +561,19 @@ main {
 
 .section-intro h2,
 .contact-copy h2 {
-  font-size: clamp(42px, 5vw, 74px);
-  letter-spacing: -0.035em;
+  font-size: clamp(34px, 3.4vw, 52px);
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.022em;
   text-wrap: balance;
 }
 
 .section-intro-inline {
   max-width: none;
   display: grid;
-  grid-template-columns: minmax(210px, 0.35fr) minmax(0, 1fr);
-  gap: 64px;
-  align-items: end;
+  grid-template-columns: minmax(190px, 0.3fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
 }
 
 .profile-body {
@@ -671,7 +674,8 @@ main {
 }
 
 .experience-header h3 {
-  font-size: clamp(36px, 4vw, 58px);
+  font-size: clamp(32px, 3vw, 44px);
+  line-height: 1.1;
 }
 
 .experience-company {
@@ -803,7 +807,8 @@ main {
 }
 
 .career-card h3 {
-  font-size: 28px;
+  font-size: 25px;
+  line-height: 1.16;
 }
 
 .career-card ul,
@@ -847,7 +852,8 @@ main {
 
 .education-card h3 {
   max-width: 16ch;
-  font-size: clamp(30px, 3vw, 44px);
+  font-size: clamp(28px, 2.4vw, 38px);
+  line-height: 1.12;
 }
 
 .degree {
@@ -913,7 +919,8 @@ main {
 }
 
 .exchange-list h3 {
-  font-size: 25px;
+  font-size: 23px;
+  line-height: 1.18;
 }
 
 .exchange-list p {
@@ -947,7 +954,8 @@ main {
 }
 
 .skills-matrix h3 {
-  font-size: 27px;
+  font-size: 24px;
+  line-height: 1.18;
 }
 
 .skills-matrix article > p:last-child {
@@ -971,7 +979,7 @@ main {
 }
 
 .contact-copy h2 {
-  max-width: 12ch;
+  max-width: 16ch;
 }
 
 .contact-copy > p:not(.section-number, .section-kicker) {
@@ -1340,7 +1348,7 @@ main {
   }
 
   .hero h1 {
-    font-size: clamp(52px, 6vw, 78px);
+    font-size: clamp(44px, 5vw, 62px);
   }
 
   .profile-body {
@@ -1403,7 +1411,7 @@ main {
 
   .hero h1 {
     max-width: 16ch;
-    font-size: clamp(50px, 10vw, 76px);
+    font-size: clamp(40px, 7.5vw, 56px);
   }
 
   .snapshot {
@@ -1437,7 +1445,7 @@ main {
 
   .section-intro h2,
   .contact-copy h2 {
-    font-size: clamp(40px, 8vw, 62px);
+    font-size: clamp(32px, 6vw, 46px);
   }
 
   .education-grid,
@@ -1558,8 +1566,8 @@ main {
 
   .hero h1 {
     max-width: none;
-    font-size: clamp(38px, 11vw, 52px);
-    letter-spacing: -0.038em;
+    font-size: clamp(34px, 9.2vw, 43px);
+    letter-spacing: -0.028em;
   }
 
   .hero-summary {
@@ -1613,7 +1621,7 @@ main {
 
   .section-number {
     margin-bottom: 16px;
-    font-size: 42px;
+    font-size: 34px;
   }
 
   .section-intro {
@@ -1622,7 +1630,7 @@ main {
 
   .section-intro h2,
   .contact-copy h2 {
-    font-size: clamp(36px, 11vw, 52px);
+    font-size: clamp(30px, 8.6vw, 40px);
   }
 
   .profile-narrative p {
@@ -1639,7 +1647,7 @@ main {
   }
 
   .experience-header h3 {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   .role-tag {
